@@ -1,0 +1,33 @@
+digraph model { 
+	Factorial_0 [label="Basic block 2 (Factorial)"];
+	Factorial_1 [label="Predecessors:  ENTRY (Factorial)"];
+	Factorial_2 [label="Successors:  3 (true) 4 (Factorial)"];
+	Factorial_3 [label="Basic block 3 (Factorial)"];
+	Factorial_4 [label="Predecessors:  2 (Factorial)"];
+	Factorial_5 [label="Successors:  5 (Factorial)"];
+	Factorial_6 [label="Basic block 4 (Factorial)"];
+	Factorial_7 [label="Predecessors:  2 (Factorial)"];
+	Factorial_8 [label="Successors:  5 (Factorial)"];
+	Factorial_9 [label="Basic block 5 (Factorial)"];
+	Factorial_10 [label="Predecessors:  3 (fallthru) 4 (Factorial)"];
+	Factorial_11 [label="Successors:  6 (Factorial)"];
+	Factorial_12 [label="Basic block 6 (Factorial)"];
+	Factorial_13 [label="Predecessors:  5 (Factorial)"];
+	Factorial_14 [label="Coalesced label blocks: 0 (Factorial)"];
+	Factorial_15 [label="main (Factorial)"];
+	Factorial_15 -> Factorial_28;
+	Factorial_17 [label="Predecessors:  ENTRY (Factorial)"];
+	Factorial_16 [label="Basic block 2 (Factorial)"];
+	Factorial_19 [label="Basic block 3 (Factorial)"];
+	Factorial_18 [label="Successors:  3 (true) 4 (Factorial)"];
+	Factorial_21 [label="Successors:  5 (Factorial)"];
+	Factorial_20 [label="Predecessors:  2 (Factorial)"];
+	Factorial_23 [label="Predecessors:  2 (Factorial)"];
+	Factorial_22 [label="Basic block 4 (Factorial)"];
+	Factorial_25 [label="Basic block 5 (Factorial)"];
+	Factorial_24 [label="Successors:  5 (Factorial)"];
+	Factorial_27 [label="Coalesced label blocks: 0 (Factorial)"];
+	Factorial_26 [label="Predecessors:  3 (fallthru) 4 (Factorial)"];
+	Factorial_28 [label="factorial (Factorial)"];
+	Factorial_28 -> Factorial_28;
+}

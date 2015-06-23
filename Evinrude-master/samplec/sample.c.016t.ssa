@@ -1,0 +1,21 @@
+
+;; Function main (main, funcdef_no=6, decl_uid=1810, cgraph_uid=6)
+
+main ()
+{
+  char string[12];
+  int D.1814;
+  int _1;
+
+  <bb 2>:
+  string = "Hello World";
+  __builtin_puts (&string);
+  _1 = 0;
+  string ={v} {CLOBBER};
+
+<L1>:
+  return _1;
+
+}
+
+

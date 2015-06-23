@@ -1,0 +1,22 @@
+
+;; Function main (main, funcdef_no=6, decl_uid=1810, cgraph_uid=6)
+
+main ()
+{
+  int D.1814;
+  char string[12];
+
+  try
+    {
+      string = "Hello World";
+      __builtin_puts (&string);
+      D.1814 = 0;
+      return D.1814;
+    }
+  finally
+    {
+      string = {CLOBBER};
+    }
+}
+
+

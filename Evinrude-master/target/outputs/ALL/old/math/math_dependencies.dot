@@ -1,0 +1,3 @@
+digraph model { 
+	Math_0 [label="main (Math)"];
+}

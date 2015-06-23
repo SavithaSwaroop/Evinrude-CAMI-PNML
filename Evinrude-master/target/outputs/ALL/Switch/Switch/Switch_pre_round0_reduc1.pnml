@@ -1,0 +1,95 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+  <net id="cId-87184275886836886881" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <page id="page0">
+      <name>
+        <text>DefaultPage</text>
+      </name>
+      <place id="cId-88555837557980134592">
+        <name>
+          <text>State_0_0_9</text>
+        </name>
+      </place>
+      <place id="cId-88555837557980134593">
+        <name>
+          <text>State_Global_EXIT</text>
+        </name>
+      </place>
+      <place id="cId-88555837557980134594">
+        <name>
+          <text>State_0_0_EXIT</text>
+        </name>
+      </place>
+      <place id="cId-88555837557980134595">
+        <name>
+          <text>State_0_0_ENTRY</text>
+        </name>
+      </place>
+      <transition id="cId-88555837557980134596">
+        <name>
+          <text>0_0_6_to_0_0_9</text>
+        </name>
+      </transition>
+      <transition id="cId-88291440157411328197">
+        <name>
+          <text>0_0_8_to_0_0_9</text>
+        </name>
+      </transition>
+      <transition id="cId-88291440157411328198">
+        <name>
+          <text>0_0_3_to_0_0_9</text>
+        </name>
+      </transition>
+      <transition id="cId-88291440157411328199">
+        <name>
+          <text>0_0_7_to_0_0_9</text>
+        </name>
+      </transition>
+      <transition id="cId-882914401574113281910">
+        <name>
+          <text>0_0_4_to_0_0_9</text>
+        </name>
+      </transition>
+      <transition id="cId-882914401574113281911">
+        <name>
+          <text>0_0_9_to_0_0_EXIT</text>
+        </name>
+      </transition>
+      <transition id="cId-882914401574113281912">
+        <name>
+          <text>0_0_5_to_0_0_9</text>
+        </name>
+      </transition>
+      <arc id="cId-882914401574113281913" source="cId-88555837557980134592" target="cId-882914401574113281911">
+      </arc>
+      <arc id="cId-882914401574113281914" source="cId-88555837557980134595" target="cId-882914401574113281912">
+      </arc>
+      <arc id="cId-882914401574113281915" source="cId-88291440157411328198" target="cId-88555837557980134592">
+      </arc>
+      <arc id="cId-882914401574113281916" source="cId-88291440157411328197" target="cId-88555837557980134592">
+      </arc>
+      <arc id="cId-882914401574113281917" source="cId-88555837557980134595" target="cId-88291440157411328197">
+      </arc>
+      <arc id="cId-882914401574113281918" source="cId-88555837557980134595" target="cId-88555837557980134596">
+      </arc>
+      <arc id="cId-882914401574113281919" source="cId-88555837557980134595" target="cId-882914401574113281910">
+      </arc>
+      <arc id="cId-882914401574113281920" source="cId-88555837557980134595" target="cId-88291440157411328199">
+      </arc>
+      <arc id="cId-882914401574113281921" source="cId-88555837557980134595" target="cId-88291440157411328198">
+      </arc>
+      <arc id="cId-882914401574113281922" source="cId-882914401574113281910" target="cId-88555837557980134592">
+      </arc>
+      <arc id="cId-882914401574113281923" source="cId-88555837557980134596" target="cId-88555837557980134592">
+      </arc>
+      <arc id="cId-882914401574113281924" source="cId-88291440157411328199" target="cId-88555837557980134592">
+      </arc>
+      <arc id="cId-882914401574113281925" source="cId-882914401574113281912" target="cId-88555837557980134592">
+      </arc>
+      <arc id="cId-882914401574113281926" source="cId-882914401574113281911" target="cId-88555837557980134594">
+      </arc>
+    </page>
+    <name>
+      <text>Switch_pre_round0_reduc1</text>
+    </name>
+  </net>
+</pnml>

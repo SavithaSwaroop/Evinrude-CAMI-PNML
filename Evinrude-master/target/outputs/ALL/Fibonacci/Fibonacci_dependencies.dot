@@ -1,0 +1,27 @@
+digraph model { 
+	Fibonacci_0 [label="Basic block 2 (Fibonacci)"];
+	Fibonacci_1 [label="Predecessors:  ENTRY (Fibonacci)"];
+	Fibonacci_2 [label="Successors:  7 (Fibonacci)"];
+	Fibonacci_3 [label="Basic block 3 (Fibonacci)"];
+	Fibonacci_4 [label="Predecessors:  7 (Fibonacci)"];
+	Fibonacci_5 [label="Successors:  4 (true) 5 (Fibonacci)"];
+	Fibonacci_6 [label="Basic block 4 (Fibonacci)"];
+	Fibonacci_7 [label="Predecessors:  3 (Fibonacci)"];
+	Fibonacci_8 [label="Successors:  6 (Fibonacci)"];
+	Fibonacci_9 [label="Basic block 5 (Fibonacci)"];
+	Fibonacci_10 [label="Predecessors:  3 (Fibonacci)"];
+	Fibonacci_11 [label="Successors:  6 (Fibonacci)"];
+	Fibonacci_12 [label="Basic block 6 (Fibonacci)"];
+	Fibonacci_13 [label="Predecessors:  4 (fallthru) 5 (Fibonacci)"];
+	Fibonacci_14 [label="Successors:  7 (Fibonacci)"];
+	Fibonacci_15 [label="Basic block 7 (Fibonacci)"];
+	Fibonacci_17 [label="Successors:  3 (true) 8 (Fibonacci)"];
+	Fibonacci_16 [label="Predecessors:  2 (fallthru) 6 (Fibonacci)"];
+	Fibonacci_19 [label="Predecessors:  7 (Fibonacci)"];
+	Fibonacci_18 [label="Basic block 8 (Fibonacci)"];
+	Fibonacci_21 [label="Basic block 9 (Fibonacci)"];
+	Fibonacci_20 [label="Successors:  9 (Fibonacci)"];
+	Fibonacci_23 [label="Coalesced label blocks: 0 (Fibonacci)"];
+	Fibonacci_22 [label="Predecessors:  8 (Fibonacci)"];
+	Fibonacci_24 [label="main (Fibonacci)"];
+}

@@ -1,0 +1,35 @@
+Application's name:		Switchnow (1 files)
+
+------- Statistics : Switchnow --------
+
+Number of processed CFGs : 1
+Global coverage : 83.72093023255815% (108.0/129.0)
+File : Switch.c.013t.cfg (0)
+	 # Functions : 18
+	 # Blocks : 10
+	 # Instructions : 10
+	 # Coverage : 83%
+
+------- Symbols Table : Switchnow --------
+
+Function: Basic block 9 (id=14) in CFG Switch.c.013t.cfg
+Function: Basic block 8 (id=12) in CFG Switch.c.013t.cfg
+Function: Basic block 7 (id=10) in CFG Switch.c.013t.cfg
+Function: Basic block 6 (id=8) in CFG Switch.c.013t.cfg
+Function: Basic block 5 (id=6) in CFG Switch.c.013t.cfg
+Function: Coalesced label blocks: 0 (id=16) in CFG Switch.c.013t.cfg
+Function: Successors:  9 (occurence=6)
+	(1)  (id=3) -> Switch
+	(2)  (id=5) -> Switch
+	(3)  (id=7) -> Switch
+	(4)  (id=9) -> Switch
+	(5)  (id=11) -> Switch
+	(6)  (id=13) -> Switch
+Function: Predecessors:  3 (fallthru) 4 (fallthru) 5 (fallthru) 6 (fallthru) 7 (fallthru) 8 (id=15) in CFG Switch.c.013t.cfg
+Function: main (id=17) in CFG Switch.c.013t.cfg
+Function: Predecessors:  ENTRY (id=1) in CFG Switch.c.013t.cfg
+Function: Basic block 3 (id=2) in CFG Switch.c.013t.cfg
+Function: Basic block 4 (id=4) in CFG Switch.c.013t.cfg
+Function: Basic block 2 (id=0) in CFG Switch.c.013t.cfg
+
+----------------------------------

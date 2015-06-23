@@ -1,0 +1,23 @@
+[     5] ;; Function main
+[     7] ;; 
+[     8] 7 basic blocks, 7 edges, last basic block 7.
+[    28] Successors:  EXIT
+[    32] CFG Statistics for main
+[    34] ---------------------------------------------------------
+[    35]                                 Number of        Memory
+[    36]                                 instances         used 
+[    37] ---------------------------------------------------------
+[    38] Basic blocks                              7        448b
+[    39] Edges                                     6        240b
+[    40] ---------------------------------------------------------
+[    41] Total memory used by CFG data                      688b
+[    42] ---------------------------------------------------------
+[    56]   printf (&"Enter n"[0]);
+[    57]   scanf (&"%d\n"[0], &iD.1291);
+[    58]   i.0D.1292 = iD.1291;
+[    59]   i.1D.1293 = (unsigned intD.3) i.0D.1292;
+[    60]   D.1294 = i.1D.1293 & 1;
+[    61]   if (D.1294 == 0)
+[    69]   printf (&"even"[0]);
+[    75]   printf (&"odd"[0]);
+[    80]   D.1295 = 0;

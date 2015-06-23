@@ -1,0 +1,161 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+  <net id="cId40349686003939403251" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <page id="page0">
+      <name>
+        <text>DefaultPage</text>
+      </name>
+      <place id="cId40696707608292089026">
+        <name>
+          <text>State_0_46_2_278_fopen_pre</text>
+        </name>
+      </place>
+      <transition id="cId406967076082920890212">
+        <name>
+          <text>sys_0_46_2_278_fopen</text>
+        </name>
+      </transition>
+      <place id="cId40696707608292089025">
+        <name>
+          <text>State_0_46_4_296_fopen_post</text>
+        </name>
+      </place>
+      <transition id="cId406967076082920890222">
+        <name>
+          <text>sys_0_46_9_335_fclose</text>
+        </name>
+      </transition>
+      <place id="cId40696707608292089027">
+        <name>
+          <text>State_0_46_5_308_exit_pre</text>
+        </name>
+      </place>
+      <transition id="cId406967076082920890220">
+        <name>
+          <text>sys_0_46_5_308_exit</text>
+        </name>
+      </transition>
+      <place id="cId40696707608292089028">
+        <name>
+          <text>State_sys_0_46_4_294___builtin_puts_reduc5_post</text>
+        </name>
+      </place>
+      <transition id="cId406967076082920890213">
+        <name>
+          <text>sys_0_46_4_296_fopen</text>
+        </name>
+      </transition>
+      <place id="cId40696707608292089022">
+        <name>
+          <text>State_0_46_5_307___builtin_puts_pre</text>
+        </name>
+      </place>
+      <transition id="cId406967076082920890219">
+        <name>
+          <text>sys_0_46_3_289_exit</text>
+        </name>
+      </transition>
+      <place id="cId40696707608292089029">
+        <name>
+          <text>State_0_46_9_336_fclose_pre</text>
+        </name>
+      </place>
+      <transition id="cId406967076082920890218">
+        <name>
+          <text>sys_0_46_3_288___builtin_puts</text>
+        </name>
+      </transition>
+      <place id="cId406967076082920890210">
+        <name>
+          <text>State_0_46_2_278_fopen_post</text>
+        </name>
+      </place>
+      <transition id="cId406967076082920890217">
+        <name>
+          <text>sys_0_46_5_306_fclose</text>
+        </name>
+      </transition>
+      <place id="cId406967076082920890211">
+        <name>
+          <text>State_Global_EXIT</text>
+        </name>
+      </place>
+      <transition id="cId406967076082920890216">
+        <name>
+          <text>sys_0_46_2_276___builtin_puts</text>
+        </name>
+      </transition>
+      <place id="cId40696707608292089024">
+        <name>
+          <text>State_0_46_ENTRY</text>
+        </name>
+      </place>
+      <transition id="cId406967076082920890215">
+        <name>
+          <text>sys_0_46_9_334___builtin_puts</text>
+        </name>
+      </transition>
+      <place id="cId40696707608292089023">
+        <name>
+          <text>State_0_46_9_335_fclose_pre</text>
+        </name>
+      </place>
+      <transition id="cId406967076082920890221">
+        <name>
+          <text>sys_0_46_5_307___builtin_puts</text>
+        </name>
+      </transition>
+      <transition id="cId406967076082920890214">
+        <name>
+          <text>sys_0_46_9_336_fclose</text>
+        </name>
+      </transition>
+      <arc id="cId406967076082920890235" source="cId40696707608292089026" target="cId406967076082920890212">
+      </arc>
+      <arc id="cId406967076082920890231" source="cId406967076082920890220" target="cId406967076082920890211">
+      </arc>
+      <arc id="cId406967076082920890244" source="cId40696707608292089024" target="cId406967076082920890216">
+      </arc>
+      <arc id="cId406967076082920890240" source="cId406967076082920890210" target="cId406967076082920890218">
+      </arc>
+      <arc id="cId406967076082920890237" source="cId406967076082920890216" target="cId40696707608292089026">
+      </arc>
+      <arc id="cId406967076082920890227" source="cId406967076082920890214" target="cId406967076082920890211">
+      </arc>
+      <arc id="cId406967076082920890230" source="cId406967076082920890222" target="cId40696707608292089029">
+      </arc>
+      <arc id="cId406967076082920890241" source="cId40696707608292089025" target="cId406967076082920890215">
+      </arc>
+      <arc id="cId406967076082920890223" source="cId40696707608292089028" target="cId406967076082920890213">
+      </arc>
+      <arc id="cId406967076082920890234" source="cId406967076082920890212" target="cId406967076082920890210">
+      </arc>
+      <arc id="cId406967076082920890243" source="cId40696707608292089025" target="cId406967076082920890217">
+      </arc>
+      <arc id="cId406967076082920890233" source="cId40696707608292089029" target="cId406967076082920890214">
+      </arc>
+      <arc id="cId406967076082920890229" source="cId40696707608292089028" target="cId406967076082920890219">
+      </arc>
+      <arc id="cId406967076082920890228" source="cId40696707608292089027" target="cId406967076082920890220">
+      </arc>
+      <arc id="cId406967076082920890238" source="cId40696707608292089023" target="cId406967076082920890222">
+      </arc>
+      <arc id="cId399035153206863238842" source="cId406967076082920890219" target="cId406967076082920890211">
+      </arc>
+      <arc id="cId399035153206863238824" source="cId406967076082920890215" target="cId40696707608292089023">
+      </arc>
+      <arc id="cId399035153206863238825" source="cId40696707608292089022" target="cId406967076082920890221">
+      </arc>
+      <arc id="cId399035153206863238832" source="cId406967076082920890217" target="cId40696707608292089022">
+      </arc>
+      <arc id="cId399035153206863238826" source="cId406967076082920890213" target="cId40696707608292089025">
+      </arc>
+      <arc id="cId399035153206863238839" source="cId406967076082920890221" target="cId40696707608292089027">
+      </arc>
+      <arc id="cId399035153206863238836" source="cId406967076082920890218" target="cId40696707608292089028">
+      </arc>
+    </page>
+    <name>
+      <text>copyfile_final</text>
+    </name>
+  </net>
+</pnml>

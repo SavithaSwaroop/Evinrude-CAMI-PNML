@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><pnml>
+<net id="Net-One" type="PrT net">
+<tokenclass id="Default" enabled="true" red="0" green="0" blue="0"/>
+<labels x="517" y="218" width="104" height="52" border="true">
+<text>GOAL State_Global_EXIT(1)</text>
+</labels>
+<labels x="555" y="91" width="104" height="52" border="true">
+<text>INIT State_0_6_ENTRY(1)</text>
+</labels>
+<place id="cId-83789110189800542522">
+<graphics>
+<position x="417.0" y="230.0"/>
+</graphics>
+<name>
+<value>State_Global_EXIT</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="cId-83789110189800542523">
+<graphics>
+<position x="420.0" y="47.0"/>
+</graphics>
+<name>
+<value>State_0_6_ENTRY</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<transition id="cId-83789110189800542524">
+<graphics>
+<position x="425.0" y="135.0"/>
+</graphics>
+<name>
+<value>sys_0_6_2_42_printf</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<guard>
+<value/>
+</guard>
+<effect>
+<value/>
+</effect>
+<subnet>
+<value/>
+</subnet>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<arc id="cId-83789110189800542525" source="cId-83789110189800542523" target="cId-83789110189800542524">
+<graphics/>
+<inscription>
+<value>Default,&lt;x&gt;</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="433" y="73" curvePoint="false"/>
+<arcpath id="001" x="437" y="132" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="cId-83789110189800542526" source="cId-83789110189800542524" target="cId-83789110189800542522">
+<graphics/>
+<inscription>
+<value>Default,&lt;x&gt;</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="437" y="162" curvePoint="false"/>
+<arcpath id="001" x="430" y="227" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+</net>
+</pnml>

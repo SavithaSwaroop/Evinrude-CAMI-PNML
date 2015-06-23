@@ -1,0 +1,68 @@
+[     5] Pass statistics:
+[     6] ----------------
+[     8] Scope blocks:
+[    10] { Scope block #0 
+[    11]   intD.0 xD.2633; (unused)
+[    12]   intD.0 yD.2634; (unused)
+[    13]   pthread_tD.1798 inc_x_threadD.2635; (unused)
+[    17] Pass statistics:
+[    18] ----------------
+[    43]   xD.2633 = 0;
+[    44]   yD.2634 = 0;
+[    45]   x.0D.2640 = xD.2633;
+[    46]   D.2641 = (const charD.1 * restrict) &"x: %d, y: %d\n"[0];
+[    47]   # USE = anything 
+[    48]   # CLB = anything 
+[    49]   printfD.743 (D.2641, x.0D.2640, yD.2634);
+[    50]   x.1D.2642 = (voidD.41 * restrict) &xD.2633;
+[    51]   # USE = anything 
+[    52]   # CLB = anything 
+[    53]   D.2643 = pthread_createD.1923 (&inc_x_threadD.2635, 0B, inc_xD.2625, x.1D.2642);
+[    54]   if (D.2643 != 0)
+[    62]   stderr.2D.2646 = stderrD.2360;
+[    63]   stderr.3D.2647 = (struct FILED.2221 * restrict) stderr.2D.2646;
+[    64]   D.2648 = (const charD.1 * restrict) &"Error creating thread\n"[0];
+[    65]   # USE = anything 
+[    66]   # CLB = anything 
+[    67]   fwriteD.738 (D.2648, 1, 22, stderr.3D.2647);
+[    68]   D.2649 = 1;
+[    78]   yD.2634 = yD.2634 + 1;
+[    79]   if (yD.2634 <= 99)
+[    87]   # USE = anything 
+[    88]   # CLB = anything 
+[    89]   putsD.750 (&"y increment finished"[0]);
+[    90]   inc_x_thread.4D.2650 = inc_x_threadD.2635;
+[    91]   # USE = anything 
+[    92]   # CLB = anything 
+[    93]   D.2651 = pthread_joinD.1928 (inc_x_thread.4D.2650, 0B);
+[    94]   if (D.2651 != 0)
+[   102]   stderr.5D.2654 = stderrD.2360;
+[   103]   stderr.6D.2655 = (struct FILED.2221 * restrict) stderr.5D.2654;
+[   104]   D.2656 = (const charD.1 * restrict) &"Error joining thread\n"[0];
+[   105]   # USE = anything 
+[   106]   # CLB = anything 
+[   107]   fwriteD.738 (D.2656, 1, 21, stderr.6D.2655);
+[   108]   D.2649 = 2;
+[   114]   x.7D.2657 = xD.2633;
+[   115]   D.2658 = (const charD.1 * restrict) &"x: %d, y: %d\n"[0];
+[   116]   # USE = anything 
+[   117]   # CLB = anything 
+[   118]   printfD.743 (D.2658, x.7D.2657, yD.2634);
+[   119]   D.2649 = 0;
+[   134] Pass statistics:
+[   135] ----------------
+[   137] Scope blocks:
+[   139] { Scope block #0 
+[   140]   intD.0 * x_ptrD.2627; (unused)
+[   144] Pass statistics:
+[   145] ----------------
+[   158]   x_ptrD.2627 = x_void_ptrD.2624;
+[   163]   D.2660 = *x_ptrD.2627;
+[   164]   D.2661 = D.2660 + 1;
+[   165]   *x_ptrD.2627 = D.2661;
+[   166]   D.2662 = *x_ptrD.2627;
+[   167]   if (D.2662 <= 99)
+[   175]   # USE = anything 
+[   176]   # CLB = anything 
+[   177]   putsD.750 (&"x increment finished"[0]);
+[   178]   D.2663 = 0B;

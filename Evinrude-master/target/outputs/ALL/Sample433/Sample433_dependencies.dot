@@ -1,0 +1,9 @@
+digraph model { 
+	Sample_0 [label="getc (Sample)"];
+	Sample_1 [label="putc (Sample)"];
+	Sample_2 [label="getchar (Sample)"];
+	Sample_3 [label="putchar (Sample)"];
+	Sample_4 [label="fopen64 (Sample)"];
+	Sample_5 [label="ftello64 (Sample)"];
+	Sample_6 [label="main (Sample)"];
+}

@@ -1,0 +1,25 @@
+digraph model { 
+compound=true; 
+node  [style="filled", colorscheme="paired12"];  "0_6_2_42_printf_post" [shape=ellipse, style=""];
+  "Global_EXIT" [shape=ellipse, color=12, style=filled];
+  "0_6_2_42_printf_pre" [shape=ellipse, style=""];
+  "0_6_2" [shape=ellipse, style=""];
+  "0_6_ENTRY" [shape=ellipse, color=4, style=filled];
+  "sys_0_6_2_42_printf" [shape=box, style=""];
+  "sys_0_6_2_42_printf" [color=2, style=filled];
+  "sys_0_6_2_42_printf" [label="sys_0_6_2_42_printf\n[printf]"];
+  "0_6_ENTRY_to_0_6_2" [shape=box, style=""];
+  "0_6_ENTRY_to_0_6_2" [label="0_6_ENTRY_to_0_6_2\n"];
+  "0_6_3_to_0_6_EXIT" [shape=box, style=""];
+  "0_6_3_to_0_6_EXIT" [label="0_6_3_to_0_6_EXIT\n"];
+  "sub_entry_0_6_2_to_0_6_2_42_printf_pre" [shape=box, style=""];
+  "sub_entry_0_6_2_to_0_6_2_42_printf_pre" [label="sub_entry_0_6_2_to_0_6_2_42_printf_pre\n"];
+  "sub_entry_0_6_2_to_0_6_2_42_printf_pre" -> "0_6_2_42_printf_pre" [label="", arrowhead="normal"];
+  "0_6_2_42_printf_post" -> "0_6_3_to_0_6_EXIT" [label="", arrowhead="normal"];
+  "0_6_2_42_printf_pre" -> "sys_0_6_2_42_printf" [label="", arrowhead="normal"];
+  "0_6_ENTRY_to_0_6_2" -> "0_6_2" [label="", arrowhead="normal"];
+  "0_6_ENTRY" -> "0_6_ENTRY_to_0_6_2" [label="", arrowhead="normal"];
+  "sys_0_6_2_42_printf" -> "0_6_2_42_printf_post" [label="", arrowhead="normal"];
+  "0_6_2" -> "sub_entry_0_6_2_to_0_6_2_42_printf_pre" [label="", arrowhead="normal"];
+  "0_6_3_to_0_6_EXIT" -> "Global_EXIT" [label="", arrowhead="normal"];
+}

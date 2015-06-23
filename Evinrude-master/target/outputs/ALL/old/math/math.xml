@@ -1,0 +1,12 @@
+	<cfg name="Math.c.013t.cfg" id="0">
+		<function name="main" id="0">
+			<variables>
+				<variable>D.1757</variable>
+				<variable>D.1756</variable>
+				<variable>D.1755</variable>
+				<variable>D.1753</variable>
+			</variables>
+			<blocks>
+			</blocks>
+		</function>
+	</cfg>

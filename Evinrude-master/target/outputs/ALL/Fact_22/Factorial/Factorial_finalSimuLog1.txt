@@ -1,0 +1,1 @@
+SEQUENCE (INIT 0) return_0_28_4_160_factorial 0, return_0_28_4_160_factorial 0, return_0_28_4_160_factorial 0, return_0_28_4_160_factorial 0, return_0_28_4_160_factorial 0

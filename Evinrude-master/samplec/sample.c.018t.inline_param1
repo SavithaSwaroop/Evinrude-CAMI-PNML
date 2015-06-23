@@ -1,0 +1,37 @@
+
+;; Function main (main, funcdef_no=6, decl_uid=1810, cgraph_uid=6)
+
+
+Analyzing function body size: main
+
+Inline summary for main/6
+  self time:       16
+  global time:     0
+  self size:       8
+  global size:     0
+  self stack:      0
+  global stack:    0
+    size:4.000000, time:5.000000, predicate:(true)
+    size:2.000000, time:0.000000, predicate:(not inlined)
+  calls:
+    __builtin_puts/7 function body not available
+      loop depth: 0 freq:1000 size: 2 time: 11 callee size: 0 stack: 0
+
+main ()
+{
+  char string[12];
+  int D.1814;
+  int _1;
+
+  <bb 2>:
+  string = "Hello World";
+  __builtin_puts (&string);
+  _1 = 0;
+  string ={v} {CLOBBER};
+
+<L1>:
+  return _1;
+
+}
+
+

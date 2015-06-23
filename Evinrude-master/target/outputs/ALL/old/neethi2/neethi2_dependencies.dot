@@ -1,0 +1,4 @@
+digraph model { 
+	sample1_0 [label="main (sample1)"];
+	sample1_1 [label="inc_x (sample1)"];
+}

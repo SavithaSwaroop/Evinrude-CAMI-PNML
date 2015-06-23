@@ -1,0 +1,60 @@
+	<cfg name="copyfile.c.013t.cfg" id="0">
+		<function name="main" id="0">
+			<variables>
+				<variable>target</variable>
+				<variable>source</variable>
+				<variable>target_file</variable>
+				<variable>source_file</variable>
+				<variable>ch</variable>
+				<variable>D.2560</variable>
+				<variable>D.2559</variable>
+				<variable>D.2558</variable>
+				<variable>D.2555</variable>
+				<variable>D.2554</variable>
+				<variable>D.2551</variable>
+				<variable>D.2550</variable>
+			</variables>
+			<blocks>
+				<block id="EXIT" startingLine="-1" predecessors="" successors=""></block>
+				<block id="3" startingLine="-1" predecessors="2 " successors=""></block>
+				<block id="2" startingLine="-1" predecessors="ENTRY " successors="4 3 "></block>
+				<block id="7" startingLine="-1" predecessors="8 " successors="8 "></block>
+				<block id="6" startingLine="-1" predecessors="4 " successors="8 "></block>
+				<block id="ENTRY" startingLine="-1" predecessors="" successors=""></block>
+				<block id="5" startingLine="-1" predecessors="4 " successors=""></block>
+				<block id="4" startingLine="-1" predecessors="2 " successors="6 5 "></block>
+				<block id="9" startingLine="-1" predecessors="8 " successors="EXIT "></block>
+				<block id="8" startingLine="-1" predecessors="7 6 " successors="9 7 "></block>
+			</blocks>
+		</function>
+	</cfg>
+	<cfg name="copyfile.c.013t.cfg" id="1">
+		<function name="main" id="1">
+			<variables>
+				<variable>target</variable>
+				<variable>source</variable>
+				<variable>target_file</variable>
+				<variable>source_file</variable>
+				<variable>ch</variable>
+				<variable>D.2560</variable>
+				<variable>D.2559</variable>
+				<variable>D.2558</variable>
+				<variable>D.2555</variable>
+				<variable>D.2554</variable>
+				<variable>D.2551</variable>
+				<variable>D.2550</variable>
+			</variables>
+			<blocks>
+				<block id="EXIT" startingLine="-1" predecessors="" successors=""></block>
+				<block id="3" startingLine="16" predecessors="2 " successors=""></block>
+				<block id="2" startingLine="9" predecessors="ENTRY " successors="4 3 "></block>
+				<block id="7" startingLine="33" predecessors="8 " successors="8 "></block>
+				<block id="6" startingLine="-1" predecessors="4 " successors="8 "></block>
+				<block id="ENTRY" startingLine="-1" predecessors="" successors=""></block>
+				<block id="5" startingLine="27" predecessors="4 " successors=""></block>
+				<block id="4" startingLine="20" predecessors="2 " successors="6 5 "></block>
+				<block id="9" startingLine="35" predecessors="8 " successors="EXIT "></block>
+				<block id="8" startingLine="-1" predecessors="" successors=""></block>
+			</blocks>
+		</function>
+	</cfg>

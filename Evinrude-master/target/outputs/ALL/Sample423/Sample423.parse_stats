@@ -1,0 +1,17 @@
+Application's name:		Sample423 (1 files)
+
+------- Statistics : Sample423 --------
+
+Number of processed CFGs : 1
+Global coverage : 80.0% (16.0/20.0)
+File : Sample.c.022t.cfg (0)
+	 # Functions : 1
+	 # Blocks : 3
+	 # Instructions : 0
+	 # Coverage : 80%
+
+------- Symbols Table : Sample423 --------
+
+Function: main (id=0) in CFG Sample.c.022t.cfg
+
+----------------------------------

@@ -1,0 +1,59 @@
+Application's name:		Primenow (1 files)
+
+------- Statistics : Primenow --------
+
+Number of processed CFGs : 1
+Global coverage : 92.47311827956989% (172.0/186.0)
+File : Prime.c.013t.cfg (0)
+	 # Functions : 40
+	 # Blocks : 15
+	 # Instructions : 17
+	 # Coverage : 92%
+
+------- Symbols Table : Primenow --------
+
+Function: Successors:  5 (true) 13 (id=32) in CFG Prime.c.013t.cfg
+Function: Predecessors:  6 (id=16) in CFG Prime.c.013t.cfg
+Function: Predecessors:  5 (fallthru) 7 (id=19) in CFG Prime.c.013t.cfg
+Function: Successors:  4 (id=5) in CFG Prime.c.013t.cfg
+Function: Basic block 9 (id=21) in CFG Prime.c.013t.cfg
+Function: Basic block 8 (id=18) in CFG Prime.c.013t.cfg
+Function: Basic block 7 (id=15) in CFG Prime.c.013t.cfg
+Function: Predecessors:  2 (id=4) in CFG Prime.c.013t.cfg
+Function: Basic block 6 (id=12) in CFG Prime.c.013t.cfg
+Function: Basic block 5 (id=9) in CFG Prime.c.013t.cfg
+Function: Coalesced label blocks: 0 (id=38) in CFG Prime.c.013t.cfg
+Function: Predecessors:  2 (false) 3 (id=7) in CFG Prime.c.013t.cfg
+Function: Predecessors:  6 (true) 8 (id=22) in CFG Prime.c.013t.cfg
+Function: Predecessors:  8 (id=13) in CFG Prime.c.013t.cfg
+Function: Predecessors:  9 (id=25) in CFG Prime.c.013t.cfg
+Function: Successors:  8 (occurence=2)
+	(1)  (id=11) -> Prime
+	(2)  (id=17) -> Prime
+Function: Predecessors:  ENTRY (id=1) in CFG Prime.c.013t.cfg
+Function: Basic block 3 (id=3) in CFG Prime.c.013t.cfg
+Function: Basic block 4 (id=6) in CFG Prime.c.013t.cfg
+Function: Basic block 2 (id=0) in CFG Prime.c.013t.cfg
+Function: Successors:  10 (true) 11 (id=23) in CFG Prime.c.013t.cfg
+Function: Successors:  9 (true) 7 (id=14) in CFG Prime.c.013t.cfg
+Function: Successors:  14 (id=35) in CFG Prime.c.013t.cfg
+Function: Basic block 10 (id=24) in CFG Prime.c.013t.cfg
+Function: Basic block 11 (id=27) in CFG Prime.c.013t.cfg
+Function: Basic block 12 (id=30) in CFG Prime.c.013t.cfg
+Function: Basic block 13 (id=33) in CFG Prime.c.013t.cfg
+Function: Basic block 14 (id=36) in CFG Prime.c.013t.cfg
+Function: Predecessors:  4 (fallthru) 11 (id=31) in CFG Prime.c.013t.cfg
+Function: main (id=39) in CFG Prime.c.013t.cfg
+Function: Predecessors:  9 (false) 10 (id=28) in CFG Prime.c.013t.cfg
+Function: Successors:  6 (true) 9 (id=20) in CFG Prime.c.013t.cfg
+Function: Successors:  3 (true) 4 (id=2) in CFG Prime.c.013t.cfg
+Function: Predecessors:  12 (occurence=2)
+	(1)  (id=10) -> Prime
+	(2)  (id=34) -> Prime
+Function: Predecessors:  13 (id=37) in CFG Prime.c.013t.cfg
+Function: Successors:  11 (id=26) in CFG Prime.c.013t.cfg
+Function: Successors:  12 (occurence=2)
+	(1)  (id=8) -> Prime
+	(2)  (id=29) -> Prime
+
+----------------------------------

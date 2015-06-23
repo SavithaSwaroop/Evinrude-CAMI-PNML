@@ -1,0 +1,17 @@
+Application's name:		odd1 (1 files)
+
+------- Statistics : odd1 --------
+
+Number of processed CFGs : 1
+Global coverage : 74.54545454545455% (41.0/55.0)
+File : odd.c.013t.cfg (0)
+	 # Functions : 1
+	 # Blocks : 6
+	 # Instructions : 0
+	 # Coverage : 74%
+
+------- Symbols Table : odd1 --------
+
+Function: main (id=0) in CFG odd.c.013t.cfg
+
+----------------------------------

@@ -1,0 +1,80 @@
+	<cfg name="Odd.c.013t.cfg" id="0">
+		<function name="Basic block 2" id="0">
+			<parameters>
+				<parameter>new</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Predecessors:  ENTRY" id="1">
+			<parameters>
+				<parameter>fallthru</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Successors:  3" id="2">
+			<parameters>
+				<parameter>fallthru</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Basic block 3" id="3">
+			<parameters>
+				<parameter>new</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Predecessors:  2" id="4">
+			<parameters>
+				<parameter>fallthru</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Coalesced label blocks: 0" id="5">
+			<parameters>
+				<parameter>Max so far: 0</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="main" id="6">
+			<variables>
+				<variable>n</variable>
+				<variable>D.1677</variable>
+			</variables>
+			<blocks>
+				<block id="EXIT" startingLine="-1" predecessors="" successors=""></block>
+				<block id="3" startingLine="-1" predecessors="2 " successors="EXIT "></block>
+				<block id="2" startingLine="4" predecessors="ENTRY " successors="3 ">
+					<instructions>
+						<call line="42" name="printf">
+							<parameters>
+								<parameter>Constante: even</parameter>
+							</parameters>
+						</call>
+						<assignement line="43">
+							<left>
+								<variable>D.1677</variable>
+							</left>
+							<right>
+								<constant>0;</constant>
+							</right>
+						</assignement>
+						<assignement line="41">
+							<left>
+								<variable>n</variable>
+							</left>
+							<right>
+								<constant>2;</constant>
+							</right>
+						</assignement>
+					</instructions>
+				</block>
+				<block id="ENTRY" startingLine="-1" predecessors="" successors=""></block>
+			</blocks>
+		</function>
+	</cfg>

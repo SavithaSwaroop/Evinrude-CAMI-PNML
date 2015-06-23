@@ -1,0 +1,123 @@
+	<cfg name="Odd.c.013t.cfg" id="0">
+		<function name="Basic block 2" id="0">
+			<parameters>
+				<parameter>new</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Predecessors:  ENTRY" id="1">
+			<parameters>
+				<parameter>fallthru</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Successors:  3 (true) 4" id="2">
+			<parameters>
+				<parameter>false</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Basic block 3" id="3">
+			<parameters>
+				<parameter>new</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Predecessors:  2" id="4">
+			<parameters>
+				<parameter>true</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Successors:  5" id="5">
+			<parameters>
+				<parameter>fallthru</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Basic block 4" id="6">
+			<parameters>
+				<parameter>new</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Predecessors:  2" id="7">
+			<parameters>
+				<parameter>false</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Successors:  5" id="8">
+			<parameters>
+				<parameter>fallthru</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Basic block 5" id="9">
+			<parameters>
+				<parameter>new</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Predecessors:  3 (fallthru) 4" id="10">
+			<parameters>
+				<parameter>fallthru</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Successors:  6" id="11">
+			<parameters>
+				<parameter>fallthru</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Basic block 6" id="12">
+			<parameters>
+				<parameter>new</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Predecessors:  5" id="13">
+			<parameters>
+				<parameter>fallthru</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Coalesced label blocks: 0" id="14">
+			<parameters>
+				<parameter>Max so far: 0</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="main" id="15">
+			<variables>
+				<variable>i</variable>
+				<variable>D.1295</variable>
+				<variable>D.1294</variable>
+			</variables>
+			<blocks>
+				<block id="EXIT" startingLine="-1" predecessors="" successors=""></block>
+				<block id="3" startingLine="-1" predecessors="2 " successors="5 "></block>
+				<block id="2" startingLine="-1" predecessors="ENTRY " successors="3 4 "></block>
+				<block id="6" startingLine="-1" predecessors="5 " successors="EXIT "></block>
+				<block id="ENTRY" startingLine="-1" predecessors="" successors=""></block>
+				<block id="5" startingLine="-1" predecessors="3 4 " successors="6 "></block>
+				<block id="4" startingLine="-1" predecessors="2 " successors="5 "></block>
+			</blocks>
+		</function>
+	</cfg>

@@ -1,0 +1,37 @@
+digraph model { 
+	sample1_0 [label="Basic block 2 (sample1)"];
+	sample1_1 [label="Predecessors:  ENTRY (sample1)"];
+	sample1_2 [label="Successors:  3 (sample1)"];
+	sample1_3 [label="Basic block 3 (sample1)"];
+	sample1_4 [label="Predecessors:  2 (fallthru) 3 (sample1)"];
+	sample1_5 [label="Successors:  3 (true) 4 (sample1)"];
+	sample1_6 [label="Basic block 4 (sample1)"];
+	sample1_7 [label="Predecessors:  3 (sample1)"];
+	sample1_8 [label="Successors:  5 (sample1)"];
+	sample1_9 [label="Basic block 5 (sample1)"];
+	sample1_10 [label="Predecessors:  4 (sample1)"];
+	sample1_11 [label="Coalesced label blocks: 1 (sample1)"];
+	sample1_12 [label="inc_x (sample1)"];
+	sample1_13 [label="Basic block 2 (sample1)"];
+	sample1_14 [label="Predecessors:  ENTRY (sample1)"];
+	sample1_15 [label="Successors:  3 (true) 4 (sample1)"];
+	sample1_17 [label="Predecessors:  2 (sample1)"];
+	sample1_16 [label="Basic block 3 (sample1)"];
+	sample1_19 [label="Basic block 4 (sample1)"];
+	sample1_18 [label="Successors:  8 (sample1)"];
+	sample1_21 [label="Successors:  4 (true) 5 (sample1)"];
+	sample1_20 [label="Predecessors:  2 (false) 4 (sample1)"];
+	sample1_23 [label="Predecessors:  4 (sample1)"];
+	sample1_22 [label="Basic block 5 (sample1)"];
+	sample1_25 [label="Basic block 6 (sample1)"];
+	sample1_24 [label="Successors:  6 (true) 7 (sample1)"];
+	sample1_27 [label="Successors:  8 (sample1)"];
+	sample1_26 [label="Predecessors:  5 (sample1)"];
+	sample1_29 [label="Predecessors:  5 (sample1)"];
+	sample1_28 [label="Basic block 7 (sample1)"];
+	sample1_31 [label="Basic block 8 (sample1)"];
+	sample1_30 [label="Successors:  8 (sample1)"];
+	sample1_34 [label="main (sample1)"];
+	sample1_32 [label="Predecessors:  3 (fallthru) 6 (fallthru) 7 (sample1)"];
+	sample1_33 [label="Coalesced label blocks: 2 (sample1)"];
+}

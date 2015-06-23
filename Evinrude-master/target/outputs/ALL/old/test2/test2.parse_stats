@@ -1,0 +1,23 @@
+Application's name:		test2 (1 files)
+
+------- Statistics : test2 --------
+
+Number of processed CFGs : 1
+Global coverage : 74.07407407407408% (40.0/54.0)
+File : sample.c.013t.cfg (0)
+	 # Functions : 7
+	 # Blocks : 4
+	 # Instructions : 3
+	 # Coverage : 74%
+
+------- Symbols Table : test2 --------
+
+Function: Successors:  3 (id=2) in CFG sample.c.013t.cfg
+Function: Predecessors:  2 (id=4) in CFG sample.c.013t.cfg
+Function: Predecessors:  ENTRY (id=1) in CFG sample.c.013t.cfg
+Function: Coalesced label blocks: 0 (id=5) in CFG sample.c.013t.cfg
+Function: Basic block 3 (id=3) in CFG sample.c.013t.cfg
+Function: Basic block 2 (id=0) in CFG sample.c.013t.cfg
+Function: main (id=6) in CFG sample.c.013t.cfg
+
+----------------------------------

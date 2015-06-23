@@ -1,0 +1,13 @@
+[     6]   char Grade;
+[     8]   char Grade.0;
+[    12]   __builtin_puts (&"Enter the Grade"[0]);
+[    13]   scanf (&"%c"[0], &Grade);
+[    14]   Grade.0 = Grade;
+[    15]   D.1685 = (int) Grade.0;
+[    16]   switch (D.1685)
+[    30]   __builtin_puts (&"Excellent"[0]);
+[    37]   __builtin_puts (&"Good"[0]);
+[    44]   __builtin_puts (&"OK"[0]);
+[    51]   __builtin_puts (&"Mmmmm...."[0]);
+[    58]   __builtin_puts (&"You must do better than this"[0]);
+[    65]   __builtin_puts (&"What is your grade anyway?"[0]);

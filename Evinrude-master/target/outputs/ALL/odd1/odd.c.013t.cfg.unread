@@ -1,0 +1,14 @@
+[     4] Scope blocks:
+[     6] { Scope block #0 
+[     7]   intD.0 nD.1736; (unused)
+[    11] Pass statistics:
+[    12] ----------------
+[    25]   __builtin_putsD.739 (&"Input an integer"[0]);
+[    26]   scanfD.744 (&"%d"[0], &nD.1736);
+[    27]   n.5D.1737 = nD.1736;
+[    28]   n.6D.1738 = (unsigned intD.3) n.5D.1737;
+[    29]   D.1739 = n.6D.1738 & 1;
+[    30]   if (D.1739 == 0)
+[    38]   __builtin_putsD.739 (&"Even"[0]);
+[    44]   __builtin_putsD.739 (&"Odd"[0]);
+[    49]   D.1743 = 0;

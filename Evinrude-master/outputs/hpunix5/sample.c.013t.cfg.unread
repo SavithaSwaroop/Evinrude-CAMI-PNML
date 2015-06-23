@@ -1,0 +1,4 @@
+[     6]   char string[12];
+[    11]   string = "Hello World";
+[    12]   __builtin_puts (&string);
+[    13]   D.2002 = 0;

@@ -1,0 +1,20 @@
+[     2] ;; Function main (main, funcdef_no=1, decl_uid=2511, cgraph_uid=1)
+[     7]   int n;
+[    10]   unsigned int n.2;
+[    11]   int n.1;
+[    12]   int iftmp.0;
+[    14] <bb 2>:
+[    15]   __builtin_puts (&"Input an integer"[0]);
+[    16]   scanf ("%d", &n);
+[    17]   n.1 = n;
+[    18]   n.2 = (unsigned int) n.1;
+[    19]   D.2518 = n.2 & 1;
+[    20]   if (D.2518 == 0)
+[    25] <bb 3>:
+[    26]   iftmp.0 = printf ("Even\n");
+[    29] <bb 4>:
+[    30]   iftmp.0 = printf ("Odd\n");
+[    32] <bb 5>:
+[    33]   D.2522 = 0;
+[    34]   n = {CLOBBER};
+[    36] <L4>:

@@ -1,0 +1,493 @@
+	<cfg name="copyfile.c.013t.cfg" id="0">
+		<function name="Basic block 2" id="0">
+			<parameters>
+				<parameter>new</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Predecessors:  ENTRY" id="1">
+			<parameters>
+				<parameter>fallthru</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Successors:  3" id="2">
+			<parameters>
+				<parameter>fallthru</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Basic block 3" id="3">
+			<parameters>
+				<parameter>new</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Predecessors:  2" id="4">
+			<parameters>
+				<parameter>fallthru</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Coalesced label blocks: 0" id="5">
+			<parameters>
+				<parameter>Max so far: 0</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Basic block 2" id="7">
+			<parameters>
+				<parameter>new</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Predecessors:  ENTRY" id="8">
+			<parameters>
+				<parameter>fallthru</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Successors:  3" id="9">
+			<parameters>
+				<parameter>fallthru</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Basic block 3" id="10">
+			<parameters>
+				<parameter>new</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Predecessors:  2" id="11">
+			<parameters>
+				<parameter>fallthru</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Coalesced label blocks: 0" id="12">
+			<parameters>
+				<parameter>Max so far: 0</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Basic block 2" id="14">
+			<parameters>
+				<parameter>new</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Predecessors:  ENTRY" id="15">
+			<parameters>
+				<parameter>fallthru</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Basic block 3" id="17">
+			<parameters>
+				<parameter>new</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Successors:  3" id="16">
+			<parameters>
+				<parameter>fallthru</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Coalesced label blocks: 0" id="19">
+			<parameters>
+				<parameter>Max so far: 0</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Predecessors:  2" id="18">
+			<parameters>
+				<parameter>fallthru</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Basic block 2" id="21">
+			<parameters>
+				<parameter>new</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Successors:  3 (true) 4" id="23">
+			<parameters>
+				<parameter>false</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Predecessors:  ENTRY" id="22">
+			<parameters>
+				<parameter>fallthru</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Predecessors:  2" id="25">
+			<parameters>
+				<parameter>true</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Basic block 3" id="24">
+			<parameters>
+				<parameter>new</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Predecessors:  2" id="27">
+			<parameters>
+				<parameter>false</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Basic block 4" id="26">
+			<parameters>
+				<parameter>new</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Basic block 5" id="29">
+			<parameters>
+				<parameter>new</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Successors:  5 (true) 6" id="28">
+			<parameters>
+				<parameter>false</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Basic block 6" id="31">
+			<parameters>
+				<parameter>new</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Predecessors:  4" id="30">
+			<parameters>
+				<parameter>true</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Basic block 7" id="34">
+			<parameters>
+				<parameter>new</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Predecessors:  8" id="35">
+			<parameters>
+				<parameter>true</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Predecessors:  4" id="32">
+			<parameters>
+				<parameter>false</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Successors:  8" id="33">
+			<parameters>
+				<parameter>fallthru</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Predecessors:  6 (fallthru) 7" id="38">
+			<parameters>
+				<parameter>fallthru</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Successors:  7 (true) 9" id="39">
+			<parameters>
+				<parameter>false</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Successors:  8" id="36">
+			<parameters>
+				<parameter>fallthru</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Basic block 8" id="37">
+			<parameters>
+				<parameter>new</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Successors:  10" id="42">
+			<parameters>
+				<parameter>fallthru</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Basic block 10" id="43">
+			<parameters>
+				<parameter>new</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Basic block 9" id="40">
+			<parameters>
+				<parameter>new</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Predecessors:  8" id="41">
+			<parameters>
+				<parameter>false</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="main" id="46">
+			<variables>
+				<variable>target</variable>
+				<variable>source</variable>
+				<variable>target_file</variable>
+				<variable>source_file</variable>
+				<variable>ch</variable>
+				<variable>D.2215</variable>
+				<variable>D.2214</variable>
+				<variable>D.2213</variable>
+			</variables>
+			<blocks>
+				<block id="EXIT" startingLine="-1" predecessors="" successors=""></block>
+				<block id="3" startingLine="16" predecessors="2 " successors="">
+					<instructions>
+						<call line="288" name="__builtin_puts">
+							<parameters>
+								<parameter>Constante: Press any key to exit...</parameter>
+							</parameters>
+						</call>
+						<call line="289" name="exit">
+							<parameters>
+								<parameter>Constante: 1</parameter>
+							</parameters>
+						</call>
+					</instructions>
+				</block>
+				<block id="2" startingLine="9" predecessors="ENTRY " successors="4 3 ">
+					<instructions>
+						<assignement line="279">
+							<left>
+								<variable>source</variable>
+							</left>
+							<right>
+								<variable>source</variable>
+							</right>
+						</assignement>
+						<assignement line="278">
+							<left>
+								<variable>source</variable>
+							</left>
+							<right>
+								<call line="278" name="fopen">
+									<parameters>
+										<parameter>Variable : source_file</parameter>
+										<parameter>Constante: r</parameter>
+									</parameters>
+								</call>
+							</right>
+						</assignement>
+						<call line="277" name="gets">
+							<parameters>
+								<parameter>Variable : source_file</parameter>
+							</parameters>
+						</call>
+						<call line="276" name="__builtin_puts">
+							<parameters>
+								<parameter>Constante: Enter name of file to copy</parameter>
+							</parameters>
+						</call>
+					</instructions>
+				</block>
+				<block id="10" startingLine="-1" predecessors="9 " successors="EXIT "></block>
+				<block id="7" startingLine="33" predecessors="8 " successors="8 ">
+					<instructions>
+						<call line="319" name="fputc">
+							<parameters>
+								<parameter>Variable : D.2213</parameter>
+								<parameter>Variable : target</parameter>
+							</parameters>
+						</call>
+						<assignement line="318">
+							<left>
+								<variable>D.2213</variable>
+							</left>
+							<right>
+								<variable>ch</variable>
+							</right>
+						</assignement>
+					</instructions>
+				</block>
+				<block id="6" startingLine="-1" predecessors="4 " successors="8 "></block>
+				<block id="ENTRY" startingLine="-1" predecessors="" successors=""></block>
+				<block id="5" startingLine="27" predecessors="4 " successors="">
+					<instructions>
+						<call line="307" name="__builtin_puts">
+							<parameters>
+								<parameter>Constante: Press any key to exit...</parameter>
+							</parameters>
+						</call>
+						<call line="306" name="fclose">
+							<parameters>
+								<parameter>Variable : source</parameter>
+							</parameters>
+						</call>
+						<call line="308" name="exit">
+							<parameters>
+								<parameter>Constante: 1</parameter>
+							</parameters>
+						</call>
+					</instructions>
+				</block>
+				<block id="4" startingLine="20" predecessors="2 " successors="6 5 ">
+					<instructions>
+						<call line="294" name="__builtin_puts">
+							<parameters>
+								<parameter>Constante: Enter name of target file</parameter>
+							</parameters>
+						</call>
+						<call line="295" name="gets">
+							<parameters>
+								<parameter>Variable : target_file</parameter>
+							</parameters>
+						</call>
+						<assignement line="296">
+							<left>
+								<variable>target</variable>
+							</left>
+							<right>
+								<call line="296" name="fopen">
+									<parameters>
+										<parameter>Variable : target_file</parameter>
+										<parameter>Constante: w</parameter>
+									</parameters>
+								</call>
+							</right>
+						</assignement>
+						<assignement line="297">
+							<left>
+								<variable>target</variable>
+							</left>
+							<right>
+								<variable>target</variable>
+							</right>
+						</assignement>
+					</instructions>
+				</block>
+				<block id="9" startingLine="35" predecessors="8 " successors="10 ">
+					<instructions>
+						<assignement line="337">
+							<left>
+								<variable>D.2215</variable>
+							</left>
+							<right>
+								<constant>0;</constant>
+							</right>
+						</assignement>
+						<call line="336" name="fclose">
+							<parameters>
+								<parameter>Variable : target</parameter>
+							</parameters>
+						</call>
+						<call line="334" name="__builtin_puts">
+							<parameters>
+								<parameter>Constante: File copied successfully.</parameter>
+							</parameters>
+						</call>
+						<call line="335" name="fclose">
+							<parameters>
+								<parameter>Variable : source</parameter>
+							</parameters>
+						</call>
+					</instructions>
+				</block>
+				<block id="8" startingLine="32" predecessors="6 7 " successors="9 7 ">
+					<instructions>
+						<assignement line="324">
+							<left>
+								<variable>D.2214</variable>
+							</left>
+							<right>
+								<call line="324" name="fgetc">
+									<parameters>
+										<parameter>Variable : source</parameter>
+									</parameters>
+								</call>
+							</right>
+						</assignement>
+						<assignement line="325">
+							<left>
+								<variable>ch</variable>
+							</left>
+							<right>
+								<variable>D.2214</variable>
+							</right>
+						</assignement>
+					</instructions>
+				</block>
+			</blocks>
+		</function>
+		<function name="Predecessors:  9" id="44">
+			<parameters>
+				<parameter>fallthru</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Coalesced label blocks: 0" id="45">
+			<parameters>
+				<parameter>Max so far: 0</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+	</cfg>

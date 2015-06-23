@@ -1,0 +1,3 @@
+digraph model { 
+	odd_0 [label="main (odd)"];
+}

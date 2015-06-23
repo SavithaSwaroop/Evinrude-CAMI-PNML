@@ -1,0 +1,12 @@
+graph: { title: "main"
+node: { title: "ENTRY" label: "ENTRY" }
+node: { title: "EXIT" label: "EXIT" }
+edge: { sourcename: "ENTRY" targetname: "2" linestyle: solid priority: 100 }
+
+node: { title: "2" label: "#2\ngimple_modify_stmt (5)\ngimple_modify_stmt (9)"}
+edge: { sourcename: "2" targetname: "3" priority: 100 linestyle: solid }
+
+node: { title: "3" label: "#3\nreturn_expr (-1)\nreturn_expr (-1)"}
+edge: { sourcename: "3" targetname: "EXIT" priority: 100 linestyle: solid }
+}
+

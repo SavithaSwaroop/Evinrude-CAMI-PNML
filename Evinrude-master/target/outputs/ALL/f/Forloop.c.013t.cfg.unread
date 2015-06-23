@@ -1,0 +1,14 @@
+[     5] ;; Function main
+[     7] ;; 
+[     8] 7 basic blocks, 7 edges, last basic block 7.
+[    28] Successors:  EXIT
+[    32] CFG Statistics for main
+[    34] ---------------------------------------------------------
+[    35]                                 Number of        Memory
+[    36]                                 instances         used 
+[    37] ---------------------------------------------------------
+[    38] Basic blocks                              7        420b
+[    39] Edges                                     6        240b
+[    40] ---------------------------------------------------------
+[    41] Total memory used by CFG data                      660b
+[    42] ---------------------------------------------------------

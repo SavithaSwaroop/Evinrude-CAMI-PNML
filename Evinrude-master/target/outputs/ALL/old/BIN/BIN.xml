@@ -1,0 +1,16 @@
+	<cfg name="Binary_search.c.013t.cfg" id="0">
+		<function name="main" id="0">
+			<variables>
+				<variable>D.1777</variable>
+				<variable>D.1773</variable>
+				<variable>D.1771</variable>
+				<variable>D.1767</variable>
+				<variable>D.1761</variable>
+				<variable>D.1759</variable>
+				<variable>D.1756</variable>
+				<variable>D.1755</variable>
+			</variables>
+			<blocks>
+			</blocks>
+		</function>
+	</cfg>

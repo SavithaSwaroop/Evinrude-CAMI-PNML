@@ -1,0 +1,2 @@
+SEQUENCE (INIT 0) sys_0_15_2_58___builtin_puts 5[x/1], call_0_15_4_76_factorial 7[x/1], T0_28_2_to_0_28_3 6[x/1], return_0_15_4_76_factorial 2[x/1], sys_0_15_4_79_printf 4[x/1]
+SEQUENCE (INIT 0) sys_0_15_2_58___builtin_puts 5[x/1], call_0_15_4_76_factorial 7[x/1], call_0_28_4_160_factorial 1[x/1], call_0_28_4_160_factorial 1[x/1], call_0_28_4_160_factorial 1[x/1], call_0_28_4_160_factorial 1[x/1], call_0_28_4_160_factorial 1[x/1], T0_28_2_to_0_28_3 6[x/1], return_0_15_4_76_factorial 2[x/1], sys_0_15_4_79_printf 4[x/1]

@@ -1,0 +1,8 @@
+[     4] Scope blocks:
+[     6] { Scope block #0 
+[     7]   charD.1 stringD.1736[12]; (unused)
+[    11] Pass statistics:
+[    12] ----------------
+[    22]   stringD.1736 = "Hello World";
+[    23]   __builtin_putsD.739 (&stringD.1736);
+[    24]   D.1737 = 0;

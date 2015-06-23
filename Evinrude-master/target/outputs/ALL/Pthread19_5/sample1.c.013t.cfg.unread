@@ -1,0 +1,28 @@
+[     5] ;; Function inc_x
+[     7] ;; 
+[     8] 6 basic blocks, 6 edges, last basic block 6.
+[    24] Successors:  EXIT
+[    28] CFG Statistics for inc_x
+[    30] ---------------------------------------------------------
+[    31]                                 Number of        Memory
+[    32]                                 instances         used 
+[    33] ---------------------------------------------------------
+[    34] Basic blocks                              6        360b
+[    35] Edges                                     5        200b
+[    36] ---------------------------------------------------------
+[    37] Total memory used by CFG data                      560b
+[    38] ---------------------------------------------------------
+[    86] ;; Function main
+[    88] ;; 
+[    89] 9 basic blocks, 11 edges, last basic block 9.
+[   117] Successors:  EXIT
+[   121] CFG Statistics for main
+[   123] ---------------------------------------------------------
+[   124]                                 Number of        Memory
+[   125]                                 instances         used 
+[   126] ---------------------------------------------------------
+[   127] Basic blocks                              9        540b
+[   128] Edges                                    10        400b
+[   129] ---------------------------------------------------------
+[   130] Total memory used by CFG data                      940b
+[   131] ---------------------------------------------------------

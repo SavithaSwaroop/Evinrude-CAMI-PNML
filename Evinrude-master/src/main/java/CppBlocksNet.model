@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<model xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='http://coloane.lip6.fr/resources/schemas/model.xsd' formalism='Place/Transition Net' xposition='0' yposition='0'>
+<attributes>
+<attribute name='note' xposition='0' yposition='0'>Designed with Coloane</attribute>
+<attribute name='version' xposition='0' yposition='0'>0,0</attribute>
+</attributes>
+<nodes>
+<node nodetype='place' id ='3' xposition='509' yposition='151' scale='100' interface='false' alt='0' foreground='#000000' background='#ffffff'>
+<attributes>
+<attribute name='marking' xposition='529' yposition='161'>0</attribute>
+</attributes>
+</node>
+<node nodetype='transition' id ='4' xposition='622' yposition='221' scale='100' interface='false' alt='0' foreground='#000000' background='#ffffff'>
+<attributes>
+</attributes>
+</node>
+</nodes>
+<arcs>
+<arc arctype='arc' id='5' startid='3' endid='4' color='#000000' curved='true'>
+<attributes>
+<attribute name='valuation' xposition='565' yposition='186'>1</attribute>
+</attributes>
+</arc>
+</arcs>
+<stickys>
+</stickys>
+</model>

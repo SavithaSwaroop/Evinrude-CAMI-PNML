@@ -1,0 +1,224 @@
+<pnml>
+  <net id="cId-40420460766601429771" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <page id="page0">
+      <name>
+        <text>DefaultPage</text>
+      </name>
+      <place id="cId-40156063366032623366">2
+<graphics> 
+<position x='200' y='150' /> 
+</graphics> 
+        <name>
+          <text>State_0_46_2_278_fopen_pre</text>
+        </name>
+      </place>
+      <transition id="cId-401560633660326233612">3
+<graphics> 
+<position x='290' y='400' /> 
+</graphics> 
+        <name>
+          <text>sys_0_46_2_278_fopen</text>
+        </name>
+      </transition>
+      <place id="cId-40156063366032623365">2
+<graphics> 
+<position x='330' y='150' /> 
+</graphics> 
+        <name>
+          <text>State_0_46_4_296_fopen_post</text>
+        </name>
+      </place>
+      <transition id="cId-401560633660326233622">3
+<graphics> 
+<position x='420' y='350' /> 
+</graphics> 
+        <name>
+          <text>sys_0_46_9_335_fclose</text>
+        </name>
+      </transition>
+      <place id="cId-40156063366032623367">2
+<graphics> 
+<position x='460' y='200' /> 
+</graphics> 
+        <name>
+          <text>State_0_46_5_308_exit_pre</text>
+        </name>
+      </place>
+      <transition id="cId-401560633660326233620">3
+<graphics> 
+<position x='550' y='350' /> 
+</graphics> 
+        <name>
+          <text>sys_0_46_5_308_exit</text>
+        </name>
+      </transition>
+      <place id="cId-40156063366032623368">2
+<graphics> 
+<position x='590' y='150' /> 
+</graphics> 
+        <name>
+          <text>State_sys_0_46_4_294___builtin_puts_reduc5_post</text>
+        </name>
+      </place>
+      <transition id="cId-401560633660326233613">3
+<graphics> 
+<position x='680' y='400' /> 
+</graphics> 
+        <name>
+          <text>sys_0_46_4_296_fopen</text>
+        </name>
+      </transition>
+      <place id="cId-40156063366032623362">2
+<graphics> 
+<position x='720' y='150' /> 
+</graphics> 
+        <name>
+          <text>State_0_46_5_307___builtin_puts_pre</text>
+        </name>
+      </place>
+      <transition id="cId-401560633660326233619">3
+<graphics> 
+<position x='810' y='350' /> 
+</graphics> 
+        <name>
+          <text>sys_0_46_3_289_exit</text>
+        </name>
+      </transition>
+      <place id="cId-40156063366032623369">2
+<graphics> 
+<position x='850' y='200' /> 
+</graphics> 
+        <name>
+          <text>State_0_46_9_336_fclose_pre</text>
+        </name>
+      </place>
+      <transition id="cId-401560633660326233618">3
+<graphics> 
+<position x='940' y='350' /> 
+</graphics> 
+        <name>
+          <text>sys_0_46_3_288___builtin_puts</text>
+        </name>
+      </transition>
+      <place id="cId-401560633660326233610">2
+<graphics> 
+<position x='980' y='150' /> 
+</graphics> 
+        <name>
+          <text>State_0_46_2_278_fopen_post</text>
+        </name>
+      </place>
+      <transition id="cId-401560633660326233617">3
+<graphics> 
+<position x='1070' y='400' /> 
+</graphics> 
+        <name>
+          <text>sys_0_46_5_306_fclose</text>
+        </name>
+      </transition>
+      <place id="cId-401560633660326233611">2
+<graphics> 
+<position x='1110' y='150' /> 
+</graphics> 
+        <name>
+          <text>State_Global_EXIT</text>
+        </name>
+      </place>
+      <transition id="cId-401560633660326233616">3
+<graphics> 
+<position x='1200' y='350' /> 
+</graphics> 
+        <name>
+          <text>sys_0_46_2_276___builtin_puts</text>
+        </name>
+      </transition>
+      <place id="cId-40156063366032623364">2
+<graphics> 
+<position x='1240' y='200' /> 
+</graphics> 
+        <name>
+          <text>State_0_46_ENTRY</text>
+        </name>
+      </place>
+      <transition id="cId-401560633660326233615">3
+<graphics> 
+<position x='1330' y='350' /> 
+</graphics> 
+        <name>
+          <text>sys_0_46_9_334___builtin_puts</text>
+        </name>
+      </transition>
+      <place id="cId-40156063366032623363">2
+<graphics> 
+<position x='1370' y='150' /> 
+</graphics> 
+        <name>
+          <text>State_0_46_9_335_fclose_pre</text>
+        </name>
+      </place>
+      <transition id="cId-401560633660326233621">3
+<graphics> 
+<position x='1460' y='400' /> 
+</graphics> 
+        <name>
+          <text>sys_0_46_5_307___builtin_puts</text>
+        </name>
+      </transition>
+      <transition id="cId-401560633660326233614">3
+<graphics> 
+<position x='1500' y='350' /> 
+</graphics> 
+        <name>
+          <text>sys_0_46_9_336_fclose</text>
+        </name>
+      </transition>
+      <arc id="cId-401560633660326233635" source="cId-40156063366032623366" target="cId-401560633660326233612">
+      </arc>
+      <arc id="cId-401560633660326233631" source="cId-401560633660326233620" target="cId-401560633660326233611">
+      </arc>
+      <arc id="cId-401560633660326233644" source="cId-40156063366032623364" target="cId-401560633660326233616">
+      </arc>
+      <arc id="cId-401560633660326233640" source="cId-401560633660326233610" target="cId-401560633660326233618">
+      </arc>
+      <arc id="cId-401560633660326233637" source="cId-401560633660326233616" target="cId-40156063366032623366">
+      </arc>
+      <arc id="cId-401560633660326233627" source="cId-401560633660326233614" target="cId-401560633660326233611">
+      </arc>
+      <arc id="cId-401560633660326233630" source="cId-401560633660326233622" target="cId-40156063366032623369">
+      </arc>
+      <arc id="cId-401560633660326233641" source="cId-40156063366032623365" target="cId-401560633660326233615">
+      </arc>
+      <arc id="cId-401560633660326233623" source="cId-40156063366032623368" target="cId-401560633660326233613">
+      </arc>
+      <arc id="cId-401560633660326233634" source="cId-401560633660326233612" target="cId-401560633660326233610">
+      </arc>
+      <arc id="cId-401560633660326233643" source="cId-40156063366032623365" target="cId-401560633660326233617">
+      </arc>
+      <arc id="cId-401560633660326233633" source="cId-40156063366032623369" target="cId-401560633660326233614">
+      </arc>
+      <arc id="cId-401560633660326233629" source="cId-40156063366032623368" target="cId-401560633660326233619">
+      </arc>
+      <arc id="cId-401560633660326233628" source="cId-40156063366032623367" target="cId-401560633660326233620">
+      </arc>
+      <arc id="cId-401560633660326233638" source="cId-40156063366032623363" target="cId-401560633660326233622">
+      </arc>
+      <arc id="cId-401560633660326233642" source="cId-401560633660326233619" target="cId-401560633660326233611">
+      </arc>
+      <arc id="cId-401560633660326233624" source="cId-401560633660326233615" target="cId-40156063366032623363">
+      </arc>
+      <arc id="cId-401560633660326233625" source="cId-40156063366032623362" target="cId-401560633660326233621">
+      </arc>
+      <arc id="cId-401560633660326233632" source="cId-401560633660326233617" target="cId-40156063366032623362">
+      </arc>
+      <arc id="cId-401560633660326233626" source="cId-401560633660326233613" target="cId-40156063366032623365">
+      </arc>
+      <arc id="cId-408666314498545091439" source="cId-401560633660326233621" target="cId-40156063366032623367">
+      </arc>
+      <arc id="cId-408666314498545091436" source="cId-401560633660326233618" target="cId-40156063366032623368">
+      </arc>
+    </page>
+    <name>
+      <text>copyfile_final</text>
+    </name>
+  </net>
+</pnml>

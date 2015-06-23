@@ -1,0 +1,339 @@
+Application's name:		ALL (10 files)
+
+------- Statistics : ALL --------
+
+Number of processed CFGs : 10
+Global coverage : 86.17666891436278% (1278.0/1483.0)
+File : Binary_Search.c.013t.cfg (0)
+	 # Functions : 46
+	 # Blocks : 17
+	 # Instructions : 34
+	 # Coverage : 94%
+File : copyfile.c.013t.cfg (1)
+	 # Functions : 44
+	 # Blocks : 11
+	 # Instructions : 21
+	 # Coverage : 83%
+File : Factorial.c.013t.cfg (2)
+	 # Functions : 29
+	 # Blocks : 13
+	 # Instructions : 14
+	 # Coverage : 83%
+File : Fibonacci.c.013t.cfg (3)
+	 # Functions : 25
+	 # Blocks : 10
+	 # Instructions : 15
+	 # Coverage : 89%
+File : Forloop.c.013t.cfg (4)
+	 # Functions : 16
+	 # Blocks : 7
+	 # Instructions : 5
+	 # Coverage : 83%
+File : Math.c.013t.cfg (5)
+	 # Functions : 7
+	 # Blocks : 4
+	 # Instructions : 22
+	 # Coverage : 84%
+File : Odd.c.013t.cfg (6)
+	 # Functions : 7
+	 # Blocks : 4
+	 # Instructions : 3
+	 # Coverage : 74%
+File : Prime.c.013t.cfg (7)
+	 # Functions : 40
+	 # Blocks : 15
+	 # Instructions : 17
+	 # Coverage : 92%
+File : sample.c.013t.cfg (8)
+	 # Functions : 7
+	 # Blocks : 4
+	 # Instructions : 3
+	 # Coverage : 74%
+File : Switch.c.013t.cfg (9)
+	 # Functions : 18
+	 # Blocks : 10
+	 # Instructions : 10
+	 # Coverage : 83%
+
+------- Symbols Table : ALL --------
+
+Function: Predecessors:  5 (fallthru) 7 (id=196) in CFG Prime.c.013t.cfg
+Function: Successors:  3 (occurence=6)
+	(1)  (id=48) -> copyfile
+	(2)  (id=55) -> copyfile
+	(3)  (id=62) -> copyfile
+	(4)  (id=165) -> Math
+	(5)  (id=172) -> Odd
+	(6)  (id=219) -> sample
+Function: Basic block 9 (occurence=5)
+	(1)  (id=21) -> Binary_Search
+	(2)  (id=86) -> copyfile
+	(3)  (id=143) -> Fibonacci
+	(4)  (id=198) -> Prime
+	(5)  (id=238) -> Switch
+Function: Successors:  4 (occurence=5)
+	(1)  (id=2) -> Binary_Search
+	(2)  (id=5) -> Binary_Search
+	(3)  (id=152) -> Forloop
+	(4)  (id=149) -> Forloop
+	(5)  (id=182) -> Prime
+Function: Basic block 8 (occurence=5)
+	(1)  (id=18) -> Binary_Search
+	(2)  (id=83) -> copyfile
+	(3)  (id=140) -> Fibonacci
+	(4)  (id=195) -> Prime
+	(5)  (id=236) -> Switch
+Function: Basic block 7 (occurence=5)
+	(1)  (id=15) -> Binary_Search
+	(2)  (id=80) -> copyfile
+	(3)  (id=137) -> Fibonacci
+	(4)  (id=192) -> Prime
+	(5)  (id=234) -> Switch
+Function: Basic block 6 (occurence=7)
+	(1)  (id=12) -> Binary_Search
+	(2)  (id=77) -> copyfile
+	(3)  (id=105) -> Factorial
+	(4)  (id=134) -> Fibonacci
+	(5)  (id=159) -> Forloop
+	(6)  (id=189) -> Prime
+	(7)  (id=232) -> Switch
+Function: Basic block 5 (occurence=8)
+	(1)  (id=9) -> Binary_Search
+	(2)  (id=75) -> copyfile
+	(3)  (id=102) -> Factorial
+	(4)  (id=118) -> Factorial
+	(5)  (id=131) -> Fibonacci
+	(6)  (id=156) -> Forloop
+	(7)  (id=186) -> Prime
+	(8)  (id=230) -> Switch
+Function: Successors:  9 (occurence=7)
+	(1)  (id=142) -> Fibonacci
+	(2)  (id=237) -> Switch
+	(3)  (id=235) -> Switch
+	(4)  (id=233) -> Switch
+	(5)  (id=231) -> Switch
+	(6)  (id=229) -> Switch
+	(7)  (id=227) -> Switch
+Function: Predecessors:  5 (fallthru) 11 (id=31) in CFG Binary_Search.c.013t.cfg
+Function: Coalesced label blocks: 0 (occurence=14)
+	(1)  (id=44) -> Binary_Search
+	(2)  (id=65) -> copyfile
+	(3)  (id=91) -> copyfile
+	(4)  (id=51) -> copyfile
+	(5)  (id=58) -> copyfile
+	(6)  (id=107) -> Factorial
+	(7)  (id=120) -> Factorial
+	(8)  (id=145) -> Fibonacci
+	(9)  (id=161) -> Forloop
+	(10)  (id=168) -> Math
+	(11)  (id=175) -> Odd
+	(12)  (id=215) -> Prime
+	(13)  (id=222) -> sample
+	(14)  (id=240) -> Switch
+Function: Successors:  5 (occurence=4)
+	(1)  (id=101) -> Factorial
+	(2)  (id=98) -> Factorial
+	(3)  (id=117) -> Factorial
+	(4)  (id=114) -> Factorial
+Function: Successors:  6 (occurence=4)
+	(1)  (id=104) -> Factorial
+	(2)  (id=130) -> Fibonacci
+	(3)  (id=133) -> Fibonacci
+	(4)  (id=158) -> Forloop
+Function: Successors:  7 (occurence=2)
+	(1)  (id=136) -> Fibonacci
+	(2)  (id=124) -> Fibonacci
+Function: Successors:  8 (occurence=4)
+	(1)  (id=79) -> copyfile
+	(2)  (id=82) -> copyfile
+	(3)  (id=194) -> Prime
+	(4)  (id=188) -> Prime
+Function: Predecessors:  3 (fallthru) 4 (occurence=2)
+	(1)  (id=103) -> Factorial
+	(2)  (id=119) -> Factorial
+Function: Basic block 3 (occurence=14)
+	(1)  (id=3) -> Binary_Search
+	(2)  (id=70) -> copyfile
+	(3)  (id=49) -> copyfile
+	(4)  (id=56) -> copyfile
+	(5)  (id=63) -> copyfile
+	(6)  (id=96) -> Factorial
+	(7)  (id=112) -> Factorial
+	(8)  (id=125) -> Fibonacci
+	(9)  (id=150) -> Forloop
+	(10)  (id=166) -> Math
+	(11)  (id=173) -> Odd
+	(12)  (id=180) -> Prime
+	(13)  (id=220) -> sample
+	(14)  (id=226) -> Switch
+Function: Basic block 4 (occurence=8)
+	(1)  (id=6) -> Binary_Search
+	(2)  (id=72) -> copyfile
+	(3)  (id=99) -> Factorial
+	(4)  (id=115) -> Factorial
+	(5)  (id=128) -> Fibonacci
+	(6)  (id=153) -> Forloop
+	(7)  (id=183) -> Prime
+	(8)  (id=228) -> Switch
+Function: Basic block 2 (occurence=14)
+	(1)  (id=0) -> Binary_Search
+	(2)  (id=67) -> copyfile
+	(3)  (id=46) -> copyfile
+	(4)  (id=53) -> copyfile
+	(5)  (id=60) -> copyfile
+	(6)  (id=109) -> Factorial
+	(7)  (id=93) -> Factorial
+	(8)  (id=122) -> Fibonacci
+	(9)  (id=147) -> Forloop
+	(10)  (id=163) -> Math
+	(11)  (id=170) -> Odd
+	(12)  (id=177) -> Prime
+	(13)  (id=217) -> sample
+	(14)  (id=224) -> Switch
+Function: Successors:  14 (id=212) in CFG Prime.c.013t.cfg
+Function: Successors:  15 (id=38) in CFG Binary_Search.c.013t.cfg
+Function: Successors:  16 (id=41) in CFG Binary_Search.c.013t.cfg
+Function: Successors:  5 (true) 6 (id=74) in CFG copyfile.c.013t.cfg
+Function: Predecessors:  2 (fallthru) 6 (id=138) in CFG Fibonacci.c.013t.cfg
+Function: Predecessors:  2 (fallthru) 3 (occurence=2)
+	(1)  (id=7) -> Binary_Search
+	(2)  (id=154) -> Forloop
+Function: Successors:  4 (true) 5 (id=127) in CFG Fibonacci.c.013t.cfg
+Function: Predecessors:  6 (fallthru) 7 (id=84) in CFG copyfile.c.013t.cfg
+Function: Predecessors:  4 (fallthru) 11 (id=208) in CFG Prime.c.013t.cfg
+Function: Successors:  7 (true) 8 (id=14) in CFG Binary_Search.c.013t.cfg
+Function: Successors:  7 (true) 9 (id=85) in CFG copyfile.c.013t.cfg
+Function: Predecessors:  9 (false) 10 (id=205) in CFG Prime.c.013t.cfg
+Function: Successors:  6 (true) 9 (id=197) in CFG Prime.c.013t.cfg
+Function: Successors:  11 (occurence=3)
+	(1)  (id=17) -> Binary_Search
+	(2)  (id=26) -> Binary_Search
+	(3)  (id=203) -> Prime
+Function: Successors:  10 (id=88) in CFG copyfile.c.013t.cfg
+Function: Predecessors:  7 (fallthru) 10 (id=28) in CFG Binary_Search.c.013t.cfg
+Function: Successors:  13 (id=23) in CFG Binary_Search.c.013t.cfg
+Function: Successors:  12 (occurence=4)
+	(1)  (id=11) -> Binary_Search
+	(2)  (id=29) -> Binary_Search
+	(3)  (id=206) -> Prime
+	(4)  (id=185) -> Prime
+Function: Successors:  6 (true) 13 (id=32) in CFG Binary_Search.c.013t.cfg
+Function: Predecessors:  4 (occurence=6)
+	(1)  (id=4) -> Binary_Search
+	(2)  (id=10) -> Binary_Search
+	(3)  (id=76) -> copyfile
+	(4)  (id=78) -> copyfile
+	(5)  (id=157) -> Forloop
+	(6)  (id=151) -> Forloop
+Function: Predecessors:  5 (occurence=2)
+	(1)  (id=106) -> Factorial
+	(2)  (id=160) -> Forloop
+Function: Successors:  5 (true) 13 (id=209) in CFG Prime.c.013t.cfg
+Function: Predecessors:  6 (occurence=3)
+	(1)  (id=16) -> Binary_Search
+	(2)  (id=19) -> Binary_Search
+	(3)  (id=193) -> Prime
+Function: Predecessors:  7 (occurence=2)
+	(1)  (id=141) -> Fibonacci
+	(2)  (id=126) -> Fibonacci
+Function: Predecessors:  2 (occurence=13)
+	(1)  (id=71) -> copyfile
+	(2)  (id=64) -> copyfile
+	(3)  (id=73) -> copyfile
+	(4)  (id=50) -> copyfile
+	(5)  (id=57) -> copyfile
+	(6)  (id=100) -> Factorial
+	(7)  (id=97) -> Factorial
+	(8)  (id=116) -> Factorial
+	(9)  (id=113) -> Factorial
+	(10)  (id=167) -> Math
+	(11)  (id=174) -> Odd
+	(12)  (id=181) -> Prime
+	(13)  (id=221) -> sample
+Function: Predecessors:  3 (occurence=2)
+	(1)  (id=129) -> Fibonacci
+	(2)  (id=132) -> Fibonacci
+Function: Successors:  9 (true) 10 (id=20) in CFG Binary_Search.c.013t.cfg
+Function: Predecessors:  2 (false) 3 (id=184) in CFG Prime.c.013t.cfg
+Function: Predecessors:  6 (true) 8 (id=199) in CFG Prime.c.013t.cfg
+Function: Predecessors:  8 (occurence=6)
+	(1)  (id=22) -> Binary_Search
+	(2)  (id=25) -> Binary_Search
+	(3)  (id=87) -> copyfile
+	(4)  (id=81) -> copyfile
+	(5)  (id=144) -> Fibonacci
+	(6)  (id=190) -> Prime
+Function: Predecessors:  3 (fallthru) 4 (fallthru) 5 (fallthru) 6 (fallthru) 7 (fallthru) 8 (id=239) in CFG Switch.c.013t.cfg
+Function: Predecessors:  9 (occurence=2)
+	(1)  (id=90) -> copyfile
+	(2)  (id=202) -> Prime
+Function: Predecessors:  ENTRY (occurence=14)
+	(1)  (id=1) -> Binary_Search
+	(2)  (id=68) -> copyfile
+	(3)  (id=47) -> copyfile
+	(4)  (id=54) -> copyfile
+	(5)  (id=61) -> copyfile
+	(6)  (id=110) -> Factorial
+	(7)  (id=94) -> Factorial
+	(8)  (id=123) -> Fibonacci
+	(9)  (id=148) -> Forloop
+	(10)  (id=164) -> Math
+	(11)  (id=171) -> Odd
+	(12)  (id=178) -> Prime
+	(13)  (id=218) -> sample
+	(14)  (id=225) -> Switch
+Function: Successors:  10 (true) 11 (id=200) in CFG Prime.c.013t.cfg
+Function: Successors:  9 (true) 7 (id=191) in CFG Prime.c.013t.cfg
+Function: Predecessors:  9 (fallthru) 12 (id=34) in CFG Binary_Search.c.013t.cfg
+Function: Predecessors:  13 (false) 14 (id=40) in CFG Binary_Search.c.013t.cfg
+Function: Basic block 10 (occurence=3)
+	(1)  (id=24) -> Binary_Search
+	(2)  (id=89) -> copyfile
+	(3)  (id=201) -> Prime
+Function: Basic block 11 (occurence=2)
+	(1)  (id=27) -> Binary_Search
+	(2)  (id=204) -> Prime
+Function: Basic block 12 (occurence=2)
+	(1)  (id=30) -> Binary_Search
+	(2)  (id=207) -> Prime
+Function: Basic block 13 (occurence=2)
+	(1)  (id=33) -> Binary_Search
+	(2)  (id=210) -> Prime
+Function: Basic block 14 (occurence=2)
+	(1)  (id=36) -> Binary_Search
+	(2)  (id=213) -> Prime
+Function: Basic block 15 (id=39) in CFG Binary_Search.c.013t.cfg
+Function: Basic block 16 (id=42) in CFG Binary_Search.c.013t.cfg
+Function: main (occurence=10)
+	(1)  (id=45) -> Binary_Search
+	(2)  (id=92) -> copyfile
+	(3)  (id=108) -> Factorial
+	(4)  (id=146) -> Fibonacci
+	(5)  (id=162) -> Forloop
+	(6)  (id=169) -> Math
+	(7)  (id=176) -> Odd
+	(8)  (id=216) -> Prime
+	(9)  (id=223) -> sample
+	(10)  (id=241) -> Switch
+Function: Successors:  3 (true) 8 (id=139) in CFG Fibonacci.c.013t.cfg
+Function: Successors:  14 (true) 15 (id=35) in CFG Binary_Search.c.013t.cfg
+Function: Successors:  3 (true) 5 (occurence=2)
+	(1)  (id=8) -> Binary_Search
+	(2)  (id=155) -> Forloop
+Function: Successors:  3 (true) 4 (occurence=4)
+	(1)  (id=69) -> copyfile
+	(2)  (id=111) -> Factorial
+	(3)  (id=95) -> Factorial
+	(4)  (id=179) -> Prime
+Function: Predecessors:  12 (occurence=3)
+	(1)  (id=13) -> Binary_Search
+	(2)  (id=211) -> Prime
+	(3)  (id=187) -> Prime
+Function: factorial (id=121) in CFG Factorial.c.013t.cfg
+Function: Predecessors:  13 (occurence=2)
+	(1)  (id=37) -> Binary_Search
+	(2)  (id=214) -> Prime
+Function: Predecessors:  15 (id=43) in CFG Binary_Search.c.013t.cfg
+Function: Predecessors:  4 (fallthru) 5 (id=135) in CFG Fibonacci.c.013t.cfg
+
+----------------------------------

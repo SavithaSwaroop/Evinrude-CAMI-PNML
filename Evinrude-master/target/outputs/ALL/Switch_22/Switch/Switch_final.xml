@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><pnml>
+<net id="Net-One" type="PrT net">
+<tokenclass id="Default" enabled="true" red="0" green="0" blue="0"/>
+<place id="cId-59458834919335775402">
+<graphics>
+<position x="435.0" y="90.0"/>
+</graphics>
+<name>
+<value>State_0_17_ENTRY</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="cId-59458834919335775403">
+<graphics>
+<position x="480.0" y="335.0"/>
+</graphics>
+<name>
+<value>State_0_17_2_66___builtin_puts_post</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="cId-59458834919335775404">
+<graphics>
+<position x="255.0" y="450.0"/>
+</graphics>
+<name>
+<value>State_Global_EXIT</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<transition id="cId-59458834919335775405">
+<graphics>
+<position x="630.0" y="195.0"/>
+</graphics>
+<name>
+<value>sys_0_17_2_66___builtin_puts</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<guard>
+<value/>
+</guard>
+<effect>
+<value/>
+</effect>
+<subnet>
+<value/>
+</subnet>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="cId-59458834919335775406">
+<graphics>
+<position x="260.0" y="240.0"/>
+</graphics>
+<name>
+<value>sys_0_17_3_84___builtin_puts</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<guard>
+<value/>
+</guard>
+<effect>
+<value/>
+</effect>
+<subnet>
+<value/>
+</subnet>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<arc id="cId-591613878114836134710" source="cId-59458834919335775405" target="cId-59458834919335775403">
+<graphics/>
+<inscription>
+<value/>
+<graphics/>
+</inscription>
+<tagged>
+<value/>
+</tagged>
+<arcpath id="000" x="636" y="212" curvePoint="false"/>
+<arcpath id="001" x="502" y="336" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="cId-59161387811483613478" source="cId-59458834919335775403" target="cId-59458834919335775406">
+<graphics/>
+<inscription>
+<value/>
+<graphics/>
+</inscription>
+<tagged>
+<value/>
+</tagged>
+<arcpath id="000" x="478" y="340" curvePoint="false"/>
+<arcpath id="001" x="276" y="252" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="cId-59458834919335775407" source="cId-59458834919335775406" target="cId-59458834919335775404">
+<graphics/>
+<inscription>
+<value/>
+<graphics/>
+</inscription>
+<tagged>
+<value/>
+</tagged>
+<arcpath id="000" x="272" y="267" curvePoint="false"/>
+<arcpath id="001" x="267" y="447" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="cId-59458834919335775409" source="cId-59458834919335775402" target="cId-59458834919335775405">
+<graphics/>
+<inscription>
+<value/>
+<graphics/>
+</inscription>
+<tagged>
+<value/>
+</tagged>
+<arcpath id="000" x="460" y="109" curvePoint="false"/>
+<arcpath id="001" x="637" y="202" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+</net>
+</pnml>

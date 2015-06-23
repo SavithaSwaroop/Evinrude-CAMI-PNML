@@ -1,0 +1,19 @@
+	<cfg name="Switch.c.013t.cfg" id="0">
+		<function name="main" id="0">
+			<variables>
+				<variable>D.1685</variable>
+			</variables>
+			<blocks>
+				<block id="EXIT" startingLine="-1" predecessors="" successors=""></block>
+				<block id="3" startingLine="-1" predecessors="2 " successors="9 "></block>
+				<block id="2" startingLine="-1" predecessors="ENTRY " successors="5 4 7 3 8 6 "></block>
+				<block id="7" startingLine="-1" predecessors="2 " successors="9 "></block>
+				<block id="6" startingLine="-1" predecessors="2 " successors="9 "></block>
+				<block id="ENTRY" startingLine="-1" predecessors="" successors=""></block>
+				<block id="5" startingLine="-1" predecessors="2 " successors="9 "></block>
+				<block id="4" startingLine="-1" predecessors="2 " successors="9 "></block>
+				<block id="9" startingLine="-1" predecessors="5 4 7 3 8 6 " successors="EXIT "></block>
+				<block id="8" startingLine="-1" predecessors="2 " successors="9 "></block>
+			</blocks>
+		</function>
+	</cfg>

@@ -1,0 +1,56 @@
+[     6]   int array[100];
+[     7]   int search;
+[     8]   int n;
+[     9]   int middle;
+[    10]   int last;
+[    11]   int first;
+[    12]   int c;
+[    14]   int search.9;
+[    16]   int search.8;
+[    18]   int search.7;
+[    20]   int middle.6;
+[    21]   int search.5;
+[    23]   int middle.4;
+[    25]   int n.3;
+[    26]   int n.2;
+[    29]   unsigned int c.1;
+[    30]   int n.0;
+[    34]   __builtin_puts (&"Enter number of elements"[0]);
+[    35]   scanf (&"%d"[0], &n);
+[    36]   n.0 = n;
+[    37]   printf (&"Enter %d integers\n"[0], n.0);
+[    38]   c = 0;
+[    44]   c.1 = (unsigned int) c;
+[    45]   D.1691 = c.1 * 4;
+[    46]   D.1692 = &array + D.1691;
+[    47]   scanf (&"%d"[0], D.1692);
+[    48]   c = c + 1;
+[    53]   n.2 = n;
+[    54]   if (c < n.2)
+[    62]   __builtin_puts (&"Enter value to find"[0]);
+[    63]   scanf (&"%d"[0], &search);
+[    64]   first = 0;
+[    65]   n.3 = n;
+[    66]   last = n.3 + -1;
+[    67]   D.1695 = first + last;
+[    68]   middle = D.1695 / 2;
+[    74]   middle.4 = middle;
+[    75]   D.1697 = array[middle.4];
+[    76]   search.5 = search;
+[    77]   if (D.1697 < search.5)
+[    85]   first = middle + 1;
+[    91]   middle.6 = middle;
+[    92]   D.1700 = array[middle.6];
+[    93]   search.7 = search;
+[    94]   if (D.1700 == search.7)
+[   102]   D.1702 = middle + 1;
+[   103]   search.8 = search;
+[   104]   printf (&"%d found at location %d.\n"[0], search.8, D.1702);
+[   110]   last = middle + -1;
+[   115]   D.1704 = first + last;
+[   116]   middle = D.1704 / 2;
+[   121]   if (first <= last)
+[   129]   if (first > last)
+[   137]   search.9 = search;
+[   138]   printf (&"Not found! %d is not present in the list.\n"[0], search.9);
+[   143]   D.1706 = 0;

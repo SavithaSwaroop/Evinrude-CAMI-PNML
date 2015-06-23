@@ -1,0 +1,55 @@
+Application's name:		Fact_22 (1 files)
+
+------- Statistics : Fact_22 --------
+
+Number of processed CFGs : 1
+Global coverage : 83.62573099415205% (143.0/171.0)
+File : Factorial.c.013t.cfg (0)
+	 # Functions : 29
+	 # Blocks : 13
+	 # Instructions : 14
+	 # Coverage : 83%
+
+------- Symbols Table : Fact_22 --------
+
+Function: Predecessors:  5 (id=13) in CFG Factorial.c.013t.cfg
+Function: Predecessors:  2 (occurence=4)
+	(1)  (id=4) -> Factorial
+	(2)  (id=7) -> Factorial
+	(3)  (id=20) -> Factorial
+	(4)  (id=23) -> Factorial
+Function: Basic block 6 (id=12) in CFG Factorial.c.013t.cfg
+Function: Basic block 5 (occurence=2)
+	(1)  (id=9) -> Factorial
+	(2)  (id=25) -> Factorial
+Function: Coalesced label blocks: 0 (occurence=2)
+	(1)  (id=14) -> Factorial
+	(2)  (id=27) -> Factorial
+Function: Successors:  5 (occurence=4)
+	(1)  (id=5) -> Factorial
+	(2)  (id=8) -> Factorial
+	(3)  (id=21) -> Factorial
+	(4)  (id=24) -> Factorial
+Function: Successors:  6 (id=11) in CFG Factorial.c.013t.cfg
+Function: main (id=15) in CFG Factorial.c.013t.cfg
+Function: Predecessors:  3 (fallthru) 4 (occurence=2)
+	(1)  (id=10) -> Factorial
+	(2)  (id=26) -> Factorial
+Function: Predecessors:  ENTRY (occurence=2)
+	(1)  (id=1) -> Factorial
+	(2)  (id=17) -> Factorial
+Function: Successors:  3 (true) 4 (occurence=2)
+	(1)  (id=2) -> Factorial
+	(2)  (id=18) -> Factorial
+Function: Basic block 3 (occurence=2)
+	(1)  (id=3) -> Factorial
+	(2)  (id=19) -> Factorial
+Function: Basic block 4 (occurence=2)
+	(1)  (id=6) -> Factorial
+	(2)  (id=22) -> Factorial
+Function: factorial (id=28) in CFG Factorial.c.013t.cfg
+Function: Basic block 2 (occurence=2)
+	(1)  (id=0) -> Factorial
+	(2)  (id=16) -> Factorial
+
+----------------------------------

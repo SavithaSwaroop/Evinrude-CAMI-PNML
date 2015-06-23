@@ -1,0 +1,70 @@
+[     7]   int array[100];
+[     8]   int search;
+[     9]   int n;
+[    10]   int middle;
+[    11]   int last;
+[    12]   int first;
+[    13]   int c;
+[    15]   int search.14;
+[    17]   int search.13;
+[    19]   int search.12;
+[    21]   int middle.11;
+[    22]   int search.10;
+[    24]   int middle.9;
+[    26]   int n.8;
+[    27]   int n.7;
+[    30]   unsigned int c.6;
+[    31]   int n.5;
+[    33] <bb 2>:
+[    34]   __builtin_puts (&"Enter number of elements"[0]);
+[    35]   scanf (&"%d"[0], &n);
+[    36]   n.5 = n;
+[    37]   printf (&"Enter %d integers\n"[0], n.5);
+[    38]   c = 0;
+[    41] <bb 3>:
+[    42]   c.6 = (unsigned int) c;
+[    43]   D.1755 = c.6 * 4;
+[    44]   D.1756 = &array + D.1755;
+[    45]   scanf (&"%d"[0], D.1756);
+[    46]   c = c + 1;
+[    48] <bb 4>:
+[    49]   n.7 = n;
+[    50]   if (c < n.7)
+[    55] <bb 5>:
+[    56]   __builtin_puts (&"Enter value to find"[0]);
+[    57]   scanf (&"%d"[0], &search);
+[    58]   first = 0;
+[    59]   n.8 = n;
+[    60]   last = n.8 + -1;
+[    61]   D.1759 = first + last;
+[    62]   middle = D.1759 / 2;
+[    65] <bb 6>:
+[    66]   middle.9 = middle;
+[    67]   D.1761 = array[middle.9];
+[    68]   search.10 = search;
+[    69]   if (D.1761 < search.10)
+[    74] <bb 7>:
+[    75]   first = middle + 1;
+[    78] <bb 8>:
+[    79]   middle.11 = middle;
+[    80]   D.1767 = array[middle.11];
+[    81]   search.12 = search;
+[    82]   if (D.1767 == search.12)
+[    87] <bb 9>:
+[    88]   D.1771 = middle + 1;
+[    89]   search.13 = search;
+[    90]   printf (&"%d found at location %d.\n"[0], search.13, D.1771);
+[    93] <bb 10>:
+[    94]   last = middle + -1;
+[    96] <bb 11>:
+[    97]   D.1773 = first + last;
+[    98]   middle = D.1773 / 2;
+[   100] <bb 12>:
+[   101]   if (first <= last)
+[   106] <bb 13>:
+[   107]   if (first > last)
+[   112] <bb 14>:
+[   113]   search.14 = search;
+[   114]   printf (&"Not found! %d is not present in the list.\n"[0], search.14);
+[   116] <bb 15>:
+[   117]   D.1777 = 0;

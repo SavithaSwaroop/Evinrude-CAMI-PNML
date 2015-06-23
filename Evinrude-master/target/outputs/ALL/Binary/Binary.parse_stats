@@ -1,0 +1,17 @@
+Application's name:		Binary (1 files)
+
+------- Statistics : Binary --------
+
+Number of processed CFGs : 1
+Global coverage : 63.63636363636363% (98.0/154.0)
+File : Binary_Search.c.013t.cfg (0)
+	 # Functions : 1
+	 # Blocks : 17
+	 # Instructions : 0
+	 # Coverage : 63%
+
+------- Symbols Table : Binary --------
+
+Function: main (id=0) in CFG Binary_Search.c.013t.cfg
+
+----------------------------------

@@ -1,0 +1,60 @@
+Application's name:		Pthread_new (1 files)
+
+------- Statistics : Pthread_new --------
+
+Number of processed CFGs : 1
+Global coverage : 86.79245283018868% (184.0/212.0)
+File : sample1.c.013t.cfg (0)
+	 # Functions : 35
+	 # Blocks : 15
+	 # Instructions : 25
+	 # Coverage : 86%
+
+------- Symbols Table : Pthread_new --------
+
+Function: Predecessors:  4 (occurence=2)
+	(1)  (id=10) -> sample1
+	(2)  (id=23) -> sample1
+Function: Predecessors:  5 (occurence=2)
+	(1)  (id=26) -> sample1
+	(2)  (id=29) -> sample1
+Function: Successors:  3 (id=2) in CFG sample1.c.013t.cfg
+Function: Basic block 8 (id=31) in CFG sample1.c.013t.cfg
+Function: Basic block 7 (id=28) in CFG sample1.c.013t.cfg
+Function: Basic block 6 (id=25) in CFG sample1.c.013t.cfg
+Function: Predecessors:  2 (id=17) in CFG sample1.c.013t.cfg
+Function: Predecessors:  2 (fallthru) 3 (id=4) in CFG sample1.c.013t.cfg
+Function: Predecessors:  3 (id=7) in CFG sample1.c.013t.cfg
+Function: Basic block 5 (occurence=2)
+	(1)  (id=9) -> sample1
+	(2)  (id=22) -> sample1
+Function: Successors:  4 (true) 5 (id=21) in CFG sample1.c.013t.cfg
+Function: Coalesced label blocks: 2 (id=33) in CFG sample1.c.013t.cfg
+Function: Coalesced label blocks: 1 (id=11) in CFG sample1.c.013t.cfg
+Function: Predecessors:  2 (false) 4 (id=20) in CFG sample1.c.013t.cfg
+Function: Successors:  5 (id=8) in CFG sample1.c.013t.cfg
+Function: main (id=34) in CFG sample1.c.013t.cfg
+Function: Successors:  8 (occurence=3)
+	(1)  (id=18) -> sample1
+	(2)  (id=27) -> sample1
+	(3)  (id=30) -> sample1
+Function: Successors:  6 (true) 7 (id=24) in CFG sample1.c.013t.cfg
+Function: Predecessors:  3 (fallthru) 6 (fallthru) 7 (id=32) in CFG sample1.c.013t.cfg
+Function: inc_x (id=12) in CFG sample1.c.013t.cfg
+Function: Predecessors:  ENTRY (occurence=2)
+	(1)  (id=1) -> sample1
+	(2)  (id=14) -> sample1
+Function: Successors:  3 (true) 4 (occurence=2)
+	(1)  (id=5) -> sample1
+	(2)  (id=15) -> sample1
+Function: Basic block 3 (occurence=2)
+	(1)  (id=3) -> sample1
+	(2)  (id=16) -> sample1
+Function: Basic block 4 (occurence=2)
+	(1)  (id=6) -> sample1
+	(2)  (id=19) -> sample1
+Function: Basic block 2 (occurence=2)
+	(1)  (id=0) -> sample1
+	(2)  (id=13) -> sample1
+
+----------------------------------

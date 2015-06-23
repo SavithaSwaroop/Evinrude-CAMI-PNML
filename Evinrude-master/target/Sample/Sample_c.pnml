@@ -1,0 +1,31 @@
+<pnml>
+  <net id="cId-5907837884516849791" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <page id="page0">
+      <name>
+        <text>DefaultPage</text>
+      </name>
+      <transition id="cId-6387058232103611724">
+        <name>
+          <text>sys_0_6_2_42___builtin_puts</text>
+        </name>
+      </transition>
+      <place id="cId-6387058232103611722">
+        <name>
+          <text>State_Global_EXIT</text>
+        </name>
+      </place>
+      <place id="cId-6420107939386967243">
+        <name>
+          <text>State_0_6_ENTRY</text>
+        </name>
+      </place>
+      <arc id="cId-6436632728604135565" source="cId-6420107939386967243" target="cId-6387058232103611724">
+      </arc>
+      <arc id="cId-6006986920467570436" source="cId-6387058232103611724" target="cId-6387058232103611722">
+      </arc>
+    </page>
+    <name>
+      <text>sample_final</text>
+    </name>
+  </net>
+</pnml>

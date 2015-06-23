@@ -1,0 +1,3 @@
+digraph model { 
+	Binary_Search_0 [label="main (Binary_Search)"];
+}

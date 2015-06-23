@@ -1,0 +1,3 @@
+digraph model { 
+	Sample_0 [label="main (Sample)"];
+}

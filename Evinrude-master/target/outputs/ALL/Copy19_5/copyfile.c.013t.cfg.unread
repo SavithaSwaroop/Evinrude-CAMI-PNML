@@ -1,0 +1,58 @@
+[     5] ;; Function gnu_dev_major
+[     7] ;; 
+[     8] 4 basic blocks, 3 edges, last basic block 4.
+[    16] Successors:  EXIT
+[    20] CFG Statistics for gnu_dev_major
+[    22] ---------------------------------------------------------
+[    23]                                 Number of        Memory
+[    24]                                 instances         used 
+[    25] ---------------------------------------------------------
+[    26] Basic blocks                              4        240b
+[    27] Edges                                     2         80b
+[    28] ---------------------------------------------------------
+[    29] Total memory used by CFG data                      320b
+[    30] ---------------------------------------------------------
+[    68] ;; Function gnu_dev_minor
+[    70] ;; 
+[    71] 4 basic blocks, 3 edges, last basic block 4.
+[    79] Successors:  EXIT
+[    83] CFG Statistics for gnu_dev_minor
+[    85] ---------------------------------------------------------
+[    86]                                 Number of        Memory
+[    87]                                 instances         used 
+[    88] ---------------------------------------------------------
+[    89] Basic blocks                              4        240b
+[    90] Edges                                     2         80b
+[    91] ---------------------------------------------------------
+[    92] Total memory used by CFG data                      320b
+[    93] ---------------------------------------------------------
+[   129] ;; Function gnu_dev_makedev
+[   131] ;; 
+[   132] 4 basic blocks, 3 edges, last basic block 4.
+[   140] Successors:  EXIT
+[   144] CFG Statistics for gnu_dev_makedev
+[   146] ---------------------------------------------------------
+[   147]                                 Number of        Memory
+[   148]                                 instances         used 
+[   149] ---------------------------------------------------------
+[   150] Basic blocks                              4        240b
+[   151] Edges                                     2         80b
+[   152] ---------------------------------------------------------
+[   153] Total memory used by CFG data                      320b
+[   154] ---------------------------------------------------------
+[   204] ;; Function main
+[   206] ;; 
+[   207] 11 basic blocks, 11 edges, last basic block 11.
+[   215] Successors: 
+[   223] Successors: 
+[   243] Successors:  EXIT
+[   247] CFG Statistics for main
+[   249] ---------------------------------------------------------
+[   250]                                 Number of        Memory
+[   251]                                 instances         used 
+[   252] ---------------------------------------------------------
+[   253] Basic blocks                             11        660b
+[   254] Edges                                    10        400b
+[   255] ---------------------------------------------------------
+[   256] Total memory used by CFG data                     1060b
+[   257] ---------------------------------------------------------

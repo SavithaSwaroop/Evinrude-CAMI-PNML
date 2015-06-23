@@ -1,0 +1,5 @@
+[     7]   char string[12];
+[    10] <bb 2>:
+[    11]   string = "Hello World";
+[    12]   __builtin_puts (&string);
+[    13]   D.1737 = 0;

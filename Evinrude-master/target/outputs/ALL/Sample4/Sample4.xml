@@ -1,0 +1,13 @@
+	<cfg name="Sample.c.013t.cfg" id="0">
+		<function name="main" id="0">
+			<variables>
+				<variable>string</variable>
+				<variable>D.1737</variable>
+			</variables>
+			<blocks>
+				<block id="2" startingLine="-1" predecessors="ENTRY " successors="EXIT "></block>
+				<block id="ENTRY" startingLine="-1" predecessors="" successors=""></block>
+				<block id="EXIT" startingLine="-1" predecessors="" successors=""></block>
+			</blocks>
+		</function>
+	</cfg>

@@ -1,0 +1,69 @@
+Application's name:		Copy_new (1 files)
+
+------- Statistics : Copy_new --------
+
+Number of processed CFGs : 1
+Global coverage : 83.33333333333333% (290.0/348.0)
+File : copyfile.c.013t.cfg (0)
+	 # Functions : 44
+	 # Blocks : 11
+	 # Instructions : 21
+	 # Coverage : 83%
+
+------- Symbols Table : Copy_new --------
+
+Function: Predecessors:  4 (occurence=2)
+	(1)  (id=30) -> copyfile
+	(2)  (id=32) -> copyfile
+Function: Successors:  3 (occurence=3)
+	(1)  (id=2) -> copyfile
+	(2)  (id=9) -> copyfile
+	(3)  (id=16) -> copyfile
+Function: Basic block 9 (id=40) in CFG copyfile.c.013t.cfg
+Function: Basic block 10 (id=43) in CFG copyfile.c.013t.cfg
+Function: Basic block 8 (id=37) in CFG copyfile.c.013t.cfg
+Function: Successors:  5 (true) 6 (id=28) in CFG copyfile.c.013t.cfg
+Function: Basic block 7 (id=34) in CFG copyfile.c.013t.cfg
+Function: Predecessors:  2 (occurence=5)
+	(1)  (id=4) -> copyfile
+	(2)  (id=11) -> copyfile
+	(3)  (id=18) -> copyfile
+	(4)  (id=25) -> copyfile
+	(5)  (id=27) -> copyfile
+Function: Basic block 6 (id=31) in CFG copyfile.c.013t.cfg
+Function: Basic block 5 (id=29) in CFG copyfile.c.013t.cfg
+Function: Coalesced label blocks: 0 (occurence=4)
+	(1)  (id=5) -> copyfile
+	(2)  (id=12) -> copyfile
+	(3)  (id=19) -> copyfile
+	(4)  (id=45) -> copyfile
+Function: Predecessors:  6 (fallthru) 7 (id=38) in CFG copyfile.c.013t.cfg
+Function: Predecessors:  8 (occurence=2)
+	(1)  (id=35) -> copyfile
+	(2)  (id=41) -> copyfile
+Function: Predecessors:  9 (id=44) in CFG copyfile.c.013t.cfg
+Function: main (id=46) in CFG copyfile.c.013t.cfg
+Function: Successors:  7 (true) 9 (id=39) in CFG copyfile.c.013t.cfg
+Function: Successors:  8 (occurence=2)
+	(1)  (id=33) -> copyfile
+	(2)  (id=36) -> copyfile
+Function: Predecessors:  ENTRY (occurence=4)
+	(1)  (id=1) -> copyfile
+	(2)  (id=8) -> copyfile
+	(3)  (id=15) -> copyfile
+	(4)  (id=22) -> copyfile
+Function: Successors:  3 (true) 4 (id=23) in CFG copyfile.c.013t.cfg
+Function: Basic block 3 (occurence=4)
+	(1)  (id=3) -> copyfile
+	(2)  (id=10) -> copyfile
+	(3)  (id=17) -> copyfile
+	(4)  (id=24) -> copyfile
+Function: Basic block 4 (id=26) in CFG copyfile.c.013t.cfg
+Function: Basic block 2 (occurence=4)
+	(1)  (id=0) -> copyfile
+	(2)  (id=7) -> copyfile
+	(3)  (id=14) -> copyfile
+	(4)  (id=21) -> copyfile
+Function: Successors:  10 (id=42) in CFG copyfile.c.013t.cfg
+
+----------------------------------

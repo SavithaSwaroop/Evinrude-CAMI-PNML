@@ -1,0 +1,15 @@
+digraph model { 
+compound=true; 
+node  [style="filled", colorscheme="paired12"];  "8_223_2_42___builtin_puts_pre" [shape=ellipse, style=""];
+  "Global_EXIT" [shape=ellipse, color=12, style=filled];
+  "8_223_ENTRY" [shape=ellipse, color=4, style=filled];
+  "sys_8_223_2_42___builtin_puts" [shape=box, style=""];
+  "sys_8_223_2_42___builtin_puts" [color=2, style=filled];
+  "sys_8_223_2_42___builtin_puts" [label="sys_8_223_2_42___builtin_puts\n[__builtin_puts]"];
+  "8_223_ENTRY_to_8_223_2" [shape=box, style=""];
+  "8_223_ENTRY_to_8_223_2" [label="8_223_ENTRY_to_8_223_2\n"];
+  "8_223_ENTRY" -> "8_223_ENTRY_to_8_223_2" [label="", arrowhead="normal"];
+  "8_223_2_42___builtin_puts_pre" -> "sys_8_223_2_42___builtin_puts" [label="", arrowhead="normal"];
+  "sys_8_223_2_42___builtin_puts" -> "Global_EXIT" [label="", arrowhead="normal"];
+  "8_223_ENTRY_to_8_223_2" -> "8_223_2_42___builtin_puts_pre" [label="", arrowhead="normal"];
+}

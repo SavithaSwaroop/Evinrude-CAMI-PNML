@@ -1,0 +1,21 @@
+[     6]   char Grade;
+[     8]   char Grade.5;
+[    10] <bb 2>:
+[    11]   __builtin_puts (&"Enter the Grade"[0]);
+[    12]   scanf (&"%c"[0], &Grade);
+[    13]   Grade.5 = Grade;
+[    14]   D.1749 = (int) Grade.5;
+[    15]   switch (D.1749) <default: <L5>, case 65: <L0>, case 66: <L1>, case 67: <L2>, case 68: <L3>, case 70: <L4>>
+[    17] <L0>:
+[    18]   __builtin_puts (&"Excellent"[0]);
+[    21] <L1>:
+[    22]   __builtin_puts (&"Good"[0]);
+[    25] <L2>:
+[    26]   __builtin_puts (&"OK"[0]);
+[    29] <L3>:
+[    30]   __builtin_puts (&"Mmmmm...."[0]);
+[    33] <L4>:
+[    34]   __builtin_puts (&"You must do better than this"[0]);
+[    37] <L5>:
+[    38]   __builtin_puts (&"What is your grade anyway?"[0]);
+[    40] <bb 9>:

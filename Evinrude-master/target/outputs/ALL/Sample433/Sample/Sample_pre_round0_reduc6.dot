@@ -1,0 +1,34 @@
+digraph model { 
+compound=true; 
+node  [style="filled", colorscheme="paired12"];  "0_0_EXIT" [shape=ellipse, color=6, style=filled];
+  "0_3_EXIT" [shape=ellipse, color=6, style=filled];
+  "0_2_ENTRY" [shape=ellipse, color=4, style=filled];
+  "0_5_EXIT" [shape=ellipse, color=6, style=filled];
+  "0_5_ENTRY" [shape=ellipse, color=4, style=filled];
+  "0_0_ENTRY" [shape=ellipse, color=4, style=filled];
+  "0_2_EXIT" [shape=ellipse, color=6, style=filled];
+  "Global_EXIT" [shape=ellipse, color=12, style=filled];
+  "0_1_ENTRY" [shape=ellipse, color=4, style=filled];
+  "0_3_ENTRY" [shape=ellipse, color=4, style=filled];
+  "0_1_EXIT" [shape=ellipse, color=6, style=filled];
+  "0_3_2_to_0_3_3" [shape=box, style=""];
+  "0_3_2_to_0_3_3" [label="0_3_2_to_0_3_3\n"];
+  "0_2_2_to_0_2_3" [shape=box, style=""];
+  "0_2_2_to_0_2_3" [label="0_2_2_to_0_2_3\n"];
+  "0_5_2_to_0_5_4" [shape=box, style=""];
+  "0_5_2_to_0_5_4" [label="0_5_2_to_0_5_4\n"];
+  "0_1_2_to_0_1_4" [shape=box, style=""];
+  "0_1_2_to_0_1_4" [label="0_1_2_to_0_1_4\n"];
+  "0_0_2_to_0_0_4" [shape=box, style=""];
+  "0_0_2_to_0_0_4" [label="0_0_2_to_0_0_4\n"];
+  "0_3_2_to_0_3_3" -> "0_3_EXIT" [label="", arrowhead="normal"];
+  "0_5_2_to_0_5_4" -> "0_5_EXIT" [label="", arrowhead="normal"];
+  "0_1_ENTRY" -> "0_1_2_to_0_1_4" [label="", arrowhead="normal"];
+  "0_0_2_to_0_0_4" -> "0_0_EXIT" [label="", arrowhead="normal"];
+  "0_3_ENTRY" -> "0_3_2_to_0_3_3" [label="", arrowhead="normal"];
+  "0_1_2_to_0_1_4" -> "0_1_EXIT" [label="", arrowhead="normal"];
+  "0_2_2_to_0_2_3" -> "0_2_EXIT" [label="", arrowhead="normal"];
+  "0_5_ENTRY" -> "0_5_2_to_0_5_4" [label="", arrowhead="normal"];
+  "0_2_ENTRY" -> "0_2_2_to_0_2_3" [label="", arrowhead="normal"];
+  "0_0_ENTRY" -> "0_0_2_to_0_0_4" [label="", arrowhead="normal"];
+}

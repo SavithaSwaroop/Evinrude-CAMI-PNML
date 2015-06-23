@@ -1,0 +1,4 @@
+digraph model { 
+	copyfile_0 [label="main (copyfile)"];
+	copyfile_1 [label="main (copyfile)"];
+}

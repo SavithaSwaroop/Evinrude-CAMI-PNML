@@ -1,0 +1,368 @@
+	<cfg name="Factorial.c.013t.cfg" id="0">
+		<function name="Basic block 2" id="0">
+			<parameters>
+				<parameter>new</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Predecessors:  ENTRY" id="1">
+			<parameters>
+				<parameter>fallthru</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Successors:  3 (true) 4" id="2">
+			<parameters>
+				<parameter>false</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Basic block 3" id="3">
+			<parameters>
+				<parameter>new</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Predecessors:  2" id="4">
+			<parameters>
+				<parameter>true</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Successors:  5" id="5">
+			<parameters>
+				<parameter>fallthru</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Basic block 4" id="6">
+			<parameters>
+				<parameter>new</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Predecessors:  2" id="7">
+			<parameters>
+				<parameter>false</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Successors:  5" id="8">
+			<parameters>
+				<parameter>fallthru</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Basic block 5" id="9">
+			<parameters>
+				<parameter>new</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Predecessors:  3 (fallthru) 4" id="10">
+			<parameters>
+				<parameter>fallthru</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Successors:  6" id="11">
+			<parameters>
+				<parameter>fallthru</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Basic block 6" id="12">
+			<parameters>
+				<parameter>new</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Predecessors:  5" id="13">
+			<parameters>
+				<parameter>fallthru</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Coalesced label blocks: 0" id="14">
+			<parameters>
+				<parameter>Max so far: 0</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="main" id="15">
+			<variables>
+				<variable>f</variable>
+				<variable>n</variable>
+				<variable>D.1684</variable>
+			</variables>
+			<blocks>
+				<block id="EXIT" startingLine="-1" predecessors="" successors=""></block>
+				<block id="3" startingLine="10" predecessors="2 " successors="5 ">
+					<instructions>
+						<call line="69" name="__builtin_puts">
+							<parameters>
+								<parameter>Constante: Negative integers are not allowed.</parameter>
+							</parameters>
+						</call>
+					</instructions>
+				</block>
+				<block id="2" startingLine="7" predecessors="ENTRY " successors="3 4 ">
+					<instructions>
+						<call line="59" name="scanf">
+							<parameters>
+								<parameter>Constante: %d</parameter>
+								<parameter>Variable : n</parameter>
+							</parameters>
+						</call>
+						<call line="58" name="__builtin_puts">
+							<parameters>
+								<parameter>Constante: Enter an integer to find factorial</parameter>
+							</parameters>
+						</call>
+						<assignement line="60">
+							<left>
+								<variable>n</variable>
+							</left>
+							<right>
+								<variable>n</variable>
+							</right>
+						</assignement>
+					</instructions>
+				</block>
+				<block id="6" startingLine="-1" predecessors="5 " successors="EXIT "></block>
+				<block id="ENTRY" startingLine="-1" predecessors="" successors=""></block>
+				<block id="5" startingLine="16" predecessors="3 4 " successors="6 ">
+					<instructions>
+						<assignement line="84">
+							<left>
+								<variable>D.1684</variable>
+							</left>
+							<right>
+								<constant>0;</constant>
+							</right>
+						</assignement>
+					</instructions>
+				</block>
+				<block id="4" startingLine="13" predecessors="2 " successors="5 ">
+					<instructions>
+						<assignement line="76">
+							<left>
+								<variable>f</variable>
+							</left>
+							<right>
+								<call line="76" name="factorial">
+									<parameters>
+										<parameter>Variable : n</parameter>
+									</parameters>
+								</call>
+							</right>
+						</assignement>
+						<assignement line="77">
+							<left>
+								<variable>f</variable>
+							</left>
+							<right>
+								<variable>f</variable>
+							</right>
+						</assignement>
+						<assignement line="78">
+							<left>
+								<variable>n</variable>
+							</left>
+							<right>
+								<variable>n</variable>
+							</right>
+						</assignement>
+						<call line="79" name="printf">
+							<parameters>
+								<parameter>Constante: %d! = %ld\n</parameter>
+								<parameter>Variable : n</parameter>
+								<parameter>Variable : f</parameter>
+							</parameters>
+						</call>
+						<assignement line="75">
+							<left>
+								<variable>n</variable>
+							</left>
+							<right>
+								<variable>n</variable>
+							</right>
+						</assignement>
+					</instructions>
+				</block>
+			</blocks>
+		</function>
+		<function name="Predecessors:  ENTRY" id="17">
+			<parameters>
+				<parameter>fallthru</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Basic block 2" id="16">
+			<parameters>
+				<parameter>new</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Basic block 3" id="19">
+			<parameters>
+				<parameter>new</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Successors:  3 (true) 4" id="18">
+			<parameters>
+				<parameter>false</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Successors:  5" id="21">
+			<parameters>
+				<parameter>fallthru</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Predecessors:  2" id="20">
+			<parameters>
+				<parameter>true</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Predecessors:  2" id="23">
+			<parameters>
+				<parameter>false</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Basic block 4" id="22">
+			<parameters>
+				<parameter>new</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Basic block 5" id="25">
+			<parameters>
+				<parameter>new</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Successors:  5" id="24">
+			<parameters>
+				<parameter>fallthru</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Coalesced label blocks: 0" id="27">
+			<parameters>
+				<parameter>Max so far: 0</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="Predecessors:  3 (fallthru) 4" id="26">
+			<parameters>
+				<parameter>fallthru</parameter>
+			</parameters>
+			<blocks>
+			</blocks>
+		</function>
+		<function name="factorial" id="28">
+			<parameters>
+				<parameter>nD.1689</parameter>
+			</parameters>
+			<variables>
+				<variable>D.1694</variable>
+				<variable>D.1693</variable>
+				<variable>D.1692</variable>
+			</variables>
+			<blocks>
+				<block id="EXIT" startingLine="-1" predecessors="" successors=""></block>
+				<block id="3" startingLine="21" predecessors="2 " successors="5 ">
+					<instructions>
+						<assignement line="153">
+							<left>
+								<variable>D.1692</variable>
+							</left>
+							<right>
+								<constant>1;</constant>
+							</right>
+						</assignement>
+					</instructions>
+				</block>
+				<block id="2" startingLine="20" predecessors="ENTRY " successors="3 4 "></block>
+				<block id="ENTRY" startingLine="-1" predecessors="" successors=""></block>
+				<block id="5" startingLine="-1" predecessors="3 4 " successors="EXIT "></block>
+				<block id="4" startingLine="23" predecessors="2 " successors="5 ">
+					<instructions>
+						<assignement line="159">
+							<left>
+								<variable>D.1693</variable>
+							</left>
+							<right>
+								<complex operator="+">
+									<left>
+										<variable>n</variable>
+									</left>
+									<right>
+										<constant>-1</constant>
+									</right>
+								</complex>
+							</right>
+						</assignement>
+						<assignement line="161">
+							<left>
+								<variable>D.1692</variable>
+							</left>
+							<right>
+								<complex operator="*">
+									<left>
+										<variable>D.1694</variable>
+									</left>
+									<right>
+										<variable>n</variable>
+									</right>
+								</complex>
+							</right>
+						</assignement>
+						<assignement line="160">
+							<left>
+								<variable>D.1694</variable>
+							</left>
+							<right>
+								<call line="160" name="factorial">
+									<parameters>
+										<parameter>Variable : D.1693</parameter>
+									</parameters>
+								</call>
+							</right>
+						</assignement>
+					</instructions>
+				</block>
+			</blocks>
+		</function>
+	</cfg>

@@ -1,0 +1,3 @@
+digraph model { 
+	Switch_0 [label="main (Switch)"];
+}

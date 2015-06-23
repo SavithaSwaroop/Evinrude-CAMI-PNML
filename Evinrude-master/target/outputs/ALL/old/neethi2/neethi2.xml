@@ -1,0 +1,48 @@
+	<cfg name="sample1.c.013t.cfg" id="0">
+		<function name="main" id="0">
+			<variables>
+				<variable>inc_x_thread</variable>
+				<variable>y</variable>
+				<variable>x</variable>
+				<variable>D.2658</variable>
+				<variable>D.2656</variable>
+				<variable>stderr</variable>
+				<variable>D.2651</variable>
+				<variable>D.2649</variable>
+				<variable>D.2648</variable>
+				<variable>D.2643</variable>
+				<variable>D.2641</variable>
+			</variables>
+			<blocks>
+				<block id="EXIT" startingLine="-1" predecessors="" successors=""></block>
+				<block id="3" startingLine="-1" predecessors="2 " successors="9 "></block>
+				<block id="2" startingLine="-1" predecessors="ENTRY " successors="4 3 "></block>
+				<block id="7" startingLine="-1" predecessors="6 " successors="9 "></block>
+				<block id="6" startingLine="-1" predecessors="5 " successors="7 8 "></block>
+				<block id="ENTRY" startingLine="-1" predecessors="" successors=""></block>
+				<block id="5" startingLine="-1" predecessors="4 5 " successors="6 5 "></block>
+				<block id="4" startingLine="-1" predecessors="2 " successors="5 "></block>
+				<block id="9" startingLine="-1" predecessors="7 8 3 " successors="EXIT "></block>
+				<block id="8" startingLine="-1" predecessors="6 " successors="9 "></block>
+			</blocks>
+		</function>
+		<function name="inc_x" id="1">
+			<parameters>
+				<parameter>voidD.41 * x_void_ptrD.2624</parameter>
+			</parameters>
+			<variables>
+				<variable>x_ptr</variable>
+				<variable>D.2663</variable>
+				<variable>D.2662</variable>
+				<variable>D.2661</variable>
+				<variable>D.2660</variable>
+			</variables>
+			<blocks>
+				<block id="EXIT" startingLine="-1" predecessors="" successors=""></block>
+				<block id="3" startingLine="-1" predecessors="2 3 " successors="4 3 "></block>
+				<block id="2" startingLine="-1" predecessors="ENTRY " successors="3 "></block>
+				<block id="ENTRY" startingLine="-1" predecessors="" successors=""></block>
+				<block id="4" startingLine="-1" predecessors="3 " successors="EXIT "></block>
+			</blocks>
+		</function>
+	</cfg>

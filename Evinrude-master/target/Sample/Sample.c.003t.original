@@ -1,0 +1,14 @@
+
+;; Function main (main)
+;; enabled by -tree-original
+
+
+{
+  char string[12] = "Hello World";
+
+    char string[12] = "Hello World";
+  printf ((char *) "%s\n", &string);
+  return 0;
+}
+
+

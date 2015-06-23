@@ -1,0 +1,24 @@
+Application's name:		neethi3 (2 files)
+
+------- Statistics : neethi3 --------
+
+Number of processed CFGs : 2
+Global coverage : 49.645390070921984% (140.0/282.0)
+File : copyfile.c.013t.cfg (0)
+	 # Functions : 1
+	 # Blocks : 10
+	 # Instructions : 0
+	 # Coverage : 51%
+File : copyfile.c.013t.cfg (1)
+	 # Functions : 1
+	 # Blocks : 10
+	 # Instructions : 0
+	 # Coverage : 48%
+
+------- Symbols Table : neethi3 --------
+
+Function: main (occurence=2)
+	(1)  (id=0) -> copyfile
+	(2)  (id=1) -> copyfile
+
+----------------------------------

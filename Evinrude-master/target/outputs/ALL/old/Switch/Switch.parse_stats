@@ -1,0 +1,17 @@
+Application's name:		Switch (1 files)
+
+------- Statistics : Switch --------
+
+Number of processed CFGs : 1
+Global coverage : 53.333333333333336% (24.0/45.0)
+File : Switch.c.013t.cfg (0)
+	 # Functions : 1
+	 # Blocks : 0
+	 # Instructions : 0
+	 # Coverage : 53%
+
+------- Symbols Table : Switch --------
+
+Function: main (id=0) in CFG Switch.c.013t.cfg
+
+----------------------------------

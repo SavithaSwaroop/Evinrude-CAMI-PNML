@@ -1,0 +1,17 @@
+Application's name:		Sample441 (1 files)
+
+------- Statistics : Sample441 --------
+
+Number of processed CFGs : 1
+Global coverage : 72.22222222222223% (13.0/18.0)
+File : Sample.c.013t.cfg (0)
+	 # Functions : 1
+	 # Blocks : 0
+	 # Instructions : 0
+	 # Coverage : 72%
+
+------- Symbols Table : Sample441 --------
+
+Function: main (id=0) in CFG Sample.c.013t.cfg
+
+----------------------------------

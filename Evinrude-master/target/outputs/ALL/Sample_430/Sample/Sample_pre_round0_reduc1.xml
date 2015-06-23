@@ -1,0 +1,64 @@
+<pnml>
+  <net id="cId-26674767474445396401" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <page id="page0">
+      <name>
+        <value>DefaultPage</value>
+      </name>
+      <transition id="cId-27005264246631240897">
+        <name>
+          <value>0_6_ENTRY_to_0_6_2</value>
+        </name>
+      </transition>
+      <place id="cId-27005264246631240896">
+        <name>
+          <value>State_0_6_ENTRY</value>
+        </name>
+      </place>
+      <transition id="cId-27005264246631240898">
+        <name>
+          <value>0_6_2_to_0_6_3</value>
+        </name>
+      </transition>
+      <place id="cId-27005264246631240895">
+        <name>
+          <value>State_0_6_2</value>
+        </name>
+      </place>
+      <transition id="cId-27005264246631240899">
+        <name>
+          <value>0_6_3_to_0_6_EXIT</value>
+        </name>
+      </transition>
+      <place id="cId-27005264246631240892">
+        <name>
+          <value>State_0_6_EXIT</value>
+        </name>
+      </place>
+      <place id="cId-27005264246631240894">
+        <name>
+          <value>State_0_6_3</value>
+        </name>
+      </place>
+      <place id="cId-27005264246631240893">
+        <name>
+          <value>State_Global_EXIT</value>
+        </name>
+      </place>
+      <arc id="cId-270052642466312408912" source="cId-27005264246631240895" target="cId-27005264246631240898">
+      </arc>
+      <arc id="cId-270052642466312408915" source="cId-27005264246631240896" target="cId-27005264246631240897">
+      </arc>
+      <arc id="cId-270052642466312408913" source="cId-27005264246631240894" target="cId-27005264246631240899">
+      </arc>
+      <arc id="cId-270052642466312408914" source="cId-27005264246631240898" target="cId-27005264246631240894">
+      </arc>
+      <arc id="cId-270052642466312408910" source="cId-27005264246631240897" target="cId-27005264246631240895">
+      </arc>
+      <arc id="cId-270052642466312408911" source="cId-27005264246631240899" target="cId-27005264246631240892">
+      </arc>
+    </page>
+    <name>
+      <value>Sample_pre_round0_reduc1</value>
+    </name>
+  </net>
+</pnml>

@@ -1,0 +1,34 @@
+Application's name:		odd_430 (1 files)
+
+------- Statistics : odd_430 --------
+
+Number of processed CFGs : 1
+Global coverage : 74.72527472527473% (68.0/91.0)
+File : Odd.c.013t.cfg (0)
+	 # Functions : 16
+	 # Blocks : 7
+	 # Instructions : 0
+	 # Coverage : 74%
+
+------- Symbols Table : odd_430 --------
+
+Function: Predecessors:  5 (id=13) in CFG Odd.c.013t.cfg
+Function: Predecessors:  2 (occurence=2)
+	(1)  (id=4) -> Odd
+	(2)  (id=7) -> Odd
+Function: Basic block 6 (id=12) in CFG Odd.c.013t.cfg
+Function: Basic block 5 (id=9) in CFG Odd.c.013t.cfg
+Function: Coalesced label blocks: 0 (id=14) in CFG Odd.c.013t.cfg
+Function: Successors:  5 (occurence=2)
+	(1)  (id=5) -> Odd
+	(2)  (id=8) -> Odd
+Function: Successors:  6 (id=11) in CFG Odd.c.013t.cfg
+Function: main (id=15) in CFG Odd.c.013t.cfg
+Function: Predecessors:  3 (fallthru) 4 (id=10) in CFG Odd.c.013t.cfg
+Function: Predecessors:  ENTRY (id=1) in CFG Odd.c.013t.cfg
+Function: Successors:  3 (true) 4 (id=2) in CFG Odd.c.013t.cfg
+Function: Basic block 3 (id=3) in CFG Odd.c.013t.cfg
+Function: Basic block 4 (id=6) in CFG Odd.c.013t.cfg
+Function: Basic block 2 (id=0) in CFG Odd.c.013t.cfg
+
+----------------------------------

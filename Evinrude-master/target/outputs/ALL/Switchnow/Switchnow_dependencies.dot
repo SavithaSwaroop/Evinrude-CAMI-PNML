@@ -1,0 +1,20 @@
+digraph model { 
+	Switch_0 [label="Basic block 2 (Switch)"];
+	Switch_1 [label="Predecessors:  ENTRY (Switch)"];
+	Switch_2 [label="Basic block 3 (Switch)"];
+	Switch_3 [label="Successors:  9 (Switch)"];
+	Switch_4 [label="Basic block 4 (Switch)"];
+	Switch_5 [label="Successors:  9 (Switch)"];
+	Switch_6 [label="Basic block 5 (Switch)"];
+	Switch_7 [label="Successors:  9 (Switch)"];
+	Switch_8 [label="Basic block 6 (Switch)"];
+	Switch_9 [label="Successors:  9 (Switch)"];
+	Switch_10 [label="Basic block 7 (Switch)"];
+	Switch_11 [label="Successors:  9 (Switch)"];
+	Switch_12 [label="Basic block 8 (Switch)"];
+	Switch_13 [label="Successors:  9 (Switch)"];
+	Switch_14 [label="Basic block 9 (Switch)"];
+	Switch_15 [label="Predecessors:  3 (fallthru) 4 (fallthru) 5 (fallthru) 6 (fallthru) 7 (fallthru) 8 (Switch)"];
+	Switch_17 [label="main (Switch)"];
+	Switch_16 [label="Coalesced label blocks: 0 (Switch)"];
+}

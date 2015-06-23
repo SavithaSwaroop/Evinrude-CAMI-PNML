@@ -1,0 +1,34 @@
+Application's name:		Forrr (1 files)
+
+------- Statistics : Forrr --------
+
+Number of processed CFGs : 1
+Global coverage : 84.0909090909091% (74.0/88.0)
+File : For.c.013t.cfg (0)
+	 # Functions : 16
+	 # Blocks : 7
+	 # Instructions : 7
+	 # Coverage : 84%
+
+------- Symbols Table : Forrr --------
+
+Function: Predecessors:  4 (occurence=2)
+	(1)  (id=4) -> For
+	(2)  (id=10) -> For
+Function: Predecessors:  5 (id=13) in CFG For.c.013t.cfg
+Function: Successors:  4 (occurence=2)
+	(1)  (id=2) -> For
+	(2)  (id=5) -> For
+Function: Predecessors:  2 (fallthru) 3 (id=7) in CFG For.c.013t.cfg
+Function: Basic block 6 (id=12) in CFG For.c.013t.cfg
+Function: Basic block 5 (id=9) in CFG For.c.013t.cfg
+Function: Coalesced label blocks: 0 (id=14) in CFG For.c.013t.cfg
+Function: Successors:  6 (id=11) in CFG For.c.013t.cfg
+Function: main (id=15) in CFG For.c.013t.cfg
+Function: Successors:  3 (true) 5 (id=8) in CFG For.c.013t.cfg
+Function: Predecessors:  ENTRY (id=1) in CFG For.c.013t.cfg
+Function: Basic block 3 (id=3) in CFG For.c.013t.cfg
+Function: Basic block 4 (id=6) in CFG For.c.013t.cfg
+Function: Basic block 2 (id=0) in CFG For.c.013t.cfg
+
+----------------------------------

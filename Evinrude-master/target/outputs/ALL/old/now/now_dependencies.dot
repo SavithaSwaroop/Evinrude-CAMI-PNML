@@ -1,0 +1,9 @@
+digraph model { 
+	sample_0 [label="Basic block 2 (sample)"];
+	sample_1 [label="Predecessors:  ENTRY (sample)"];
+	sample_2 [label="Successors:  3 (sample)"];
+	sample_3 [label="Basic block 3 (sample)"];
+	sample_4 [label="Predecessors:  2 (sample)"];
+	sample_5 [label="Coalesced label blocks: 0 (sample)"];
+	sample_6 [label="main (sample)"];
+}

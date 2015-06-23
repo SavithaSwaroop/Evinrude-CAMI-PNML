@@ -1,0 +1,15 @@
+digraph model { 
+compound=true; 
+node  [style="filled", colorscheme="paired12"];  "0_6_2_42_printf_post" [shape=ellipse, style=""];
+  "Global_EXIT" [shape=ellipse, color=12, style=filled];
+  "0_6_ENTRY" [shape=ellipse, color=4, style=filled];
+  "sys_0_6_2_42_printf" [shape=box, style=""];
+  "sys_0_6_2_42_printf" [color=2, style=filled];
+  "sys_0_6_2_42_printf" [label="sys_0_6_2_42_printf\n[printf]"];
+  "0_6_3_to_0_6_EXIT" [shape=box, style=""];
+  "0_6_3_to_0_6_EXIT" [label="0_6_3_to_0_6_EXIT\n"];
+  "0_6_2_42_printf_post" -> "0_6_3_to_0_6_EXIT" [label="", arrowhead="normal"];
+  "0_6_ENTRY" -> "sys_0_6_2_42_printf" [label="", arrowhead="normal"];
+  "sys_0_6_2_42_printf" -> "0_6_2_42_printf_post" [label="", arrowhead="normal"];
+  "0_6_3_to_0_6_EXIT" -> "Global_EXIT" [label="", arrowhead="normal"];
+}

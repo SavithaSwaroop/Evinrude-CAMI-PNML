@@ -1,0 +1,17 @@
+Application's name:		BIN (1 files)
+
+------- Statistics : BIN --------
+
+Number of processed CFGs : 1
+Global coverage : 42.622950819672134% (52.0/122.0)
+File : Binary_search.c.013t.cfg (0)
+	 # Functions : 1
+	 # Blocks : 0
+	 # Instructions : 0
+	 # Coverage : 42%
+
+------- Symbols Table : BIN --------
+
+Function: main (id=0) in CFG Binary_search.c.013t.cfg
+
+----------------------------------

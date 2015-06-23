@@ -1,0 +1,68 @@
+Application's name:		Bin19_5 (1 files)
+
+------- Statistics : Bin19_5 --------
+
+Number of processed CFGs : 1
+Global coverage : 94.0677966101695% (222.0/236.0)
+File : Binary_Search.c.013t.cfg (0)
+	 # Functions : 46
+	 # Blocks : 17
+	 # Instructions : 34
+	 # Coverage : 94%
+
+------- Symbols Table : Bin19_5 --------
+
+Function: Predecessors:  4 (occurence=2)
+	(1)  (id=4) -> Binary_Search
+	(2)  (id=10) -> Binary_Search
+Function: Predecessors:  6 (occurence=2)
+	(1)  (id=16) -> Binary_Search
+	(2)  (id=19) -> Binary_Search
+Function: Successors:  4 (occurence=2)
+	(1)  (id=2) -> Binary_Search
+	(2)  (id=5) -> Binary_Search
+Function: Basic block 9 (id=21) in CFG Binary_Search.c.013t.cfg
+Function: Basic block 8 (id=18) in CFG Binary_Search.c.013t.cfg
+Function: Basic block 7 (id=15) in CFG Binary_Search.c.013t.cfg
+Function: Basic block 6 (id=12) in CFG Binary_Search.c.013t.cfg
+Function: Basic block 5 (id=9) in CFG Binary_Search.c.013t.cfg
+Function: Coalesced label blocks: 0 (id=44) in CFG Binary_Search.c.013t.cfg
+Function: Predecessors:  5 (fallthru) 11 (id=31) in CFG Binary_Search.c.013t.cfg
+Function: Successors:  9 (true) 10 (id=20) in CFG Binary_Search.c.013t.cfg
+Function: Predecessors:  8 (occurence=2)
+	(1)  (id=22) -> Binary_Search
+	(2)  (id=25) -> Binary_Search
+Function: Predecessors:  ENTRY (id=1) in CFG Binary_Search.c.013t.cfg
+Function: Basic block 3 (id=3) in CFG Binary_Search.c.013t.cfg
+Function: Basic block 4 (id=6) in CFG Binary_Search.c.013t.cfg
+Function: Basic block 2 (id=0) in CFG Binary_Search.c.013t.cfg
+Function: Predecessors:  9 (fallthru) 12 (id=34) in CFG Binary_Search.c.013t.cfg
+Function: Successors:  15 (id=38) in CFG Binary_Search.c.013t.cfg
+Function: Successors:  16 (id=41) in CFG Binary_Search.c.013t.cfg
+Function: Predecessors:  13 (false) 14 (id=40) in CFG Binary_Search.c.013t.cfg
+Function: Basic block 10 (id=24) in CFG Binary_Search.c.013t.cfg
+Function: Basic block 11 (id=27) in CFG Binary_Search.c.013t.cfg
+Function: Basic block 12 (id=30) in CFG Binary_Search.c.013t.cfg
+Function: Predecessors:  2 (fallthru) 3 (id=7) in CFG Binary_Search.c.013t.cfg
+Function: Basic block 13 (id=33) in CFG Binary_Search.c.013t.cfg
+Function: Basic block 14 (id=36) in CFG Binary_Search.c.013t.cfg
+Function: Basic block 15 (id=39) in CFG Binary_Search.c.013t.cfg
+Function: Basic block 16 (id=42) in CFG Binary_Search.c.013t.cfg
+Function: Successors:  7 (true) 8 (id=14) in CFG Binary_Search.c.013t.cfg
+Function: main (id=45) in CFG Binary_Search.c.013t.cfg
+Function: Successors:  14 (true) 15 (id=35) in CFG Binary_Search.c.013t.cfg
+Function: Successors:  3 (true) 5 (id=8) in CFG Binary_Search.c.013t.cfg
+Function: Predecessors:  12 (id=13) in CFG Binary_Search.c.013t.cfg
+Function: Predecessors:  13 (id=37) in CFG Binary_Search.c.013t.cfg
+Function: Predecessors:  15 (id=43) in CFG Binary_Search.c.013t.cfg
+Function: Successors:  11 (occurence=2)
+	(1)  (id=17) -> Binary_Search
+	(2)  (id=26) -> Binary_Search
+Function: Successors:  13 (id=23) in CFG Binary_Search.c.013t.cfg
+Function: Predecessors:  7 (fallthru) 10 (id=28) in CFG Binary_Search.c.013t.cfg
+Function: Successors:  6 (true) 13 (id=32) in CFG Binary_Search.c.013t.cfg
+Function: Successors:  12 (occurence=2)
+	(1)  (id=11) -> Binary_Search
+	(2)  (id=29) -> Binary_Search
+
+----------------------------------

@@ -1,0 +1,23 @@
+Application's name:		Sample433 (1 files)
+
+------- Statistics : Sample433 --------
+
+Number of processed CFGs : 1
+Global coverage : 76.04790419161677% (254.0/334.0)
+File : Sample.c.013t.cfg (0)
+	 # Functions : 7
+	 # Blocks : 42
+	 # Instructions : 0
+	 # Coverage : 76%
+
+------- Symbols Table : Sample433 --------
+
+Function: putc (id=1) in CFG Sample.c.013t.cfg
+Function: getchar (id=2) in CFG Sample.c.013t.cfg
+Function: fopen64 (id=4) in CFG Sample.c.013t.cfg
+Function: putchar (id=3) in CFG Sample.c.013t.cfg
+Function: main (id=6) in CFG Sample.c.013t.cfg
+Function: getc (id=0) in CFG Sample.c.013t.cfg
+Function: ftello64 (id=5) in CFG Sample.c.013t.cfg
+
+----------------------------------

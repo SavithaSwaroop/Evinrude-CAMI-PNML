@@ -1,0 +1,1 @@
+SEQUENCE (INIT 0) sys_0_6_2_42___builtin_puts 0[x/1]

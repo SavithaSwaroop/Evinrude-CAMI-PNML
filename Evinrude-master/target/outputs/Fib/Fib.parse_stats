@@ -1,0 +1,45 @@
+Application's name:		Fib (1 files)
+
+------- Statistics : Fib --------
+
+Number of processed CFGs : 1
+Global coverage : 89.31297709923665% (117.0/131.0)
+File : Fibonacci.c.013t.cfg (0)
+	 # Functions : 25
+	 # Blocks : 10
+	 # Instructions : 16
+	 # Coverage : 89%
+
+------- Symbols Table : Fib --------
+
+Function: Basic block 9 (id=21) in CFG Fibonacci.c.013t.cfg
+Function: Predecessors:  7 (occurence=2)
+	(1)  (id=4) -> Fibonacci
+	(2)  (id=19) -> Fibonacci
+Function: Basic block 8 (id=18) in CFG Fibonacci.c.013t.cfg
+Function: Predecessors:  2 (fallthru) 6 (id=16) in CFG Fibonacci.c.013t.cfg
+Function: Basic block 7 (id=15) in CFG Fibonacci.c.013t.cfg
+Function: Basic block 6 (id=12) in CFG Fibonacci.c.013t.cfg
+Function: Predecessors:  3 (occurence=2)
+	(1)  (id=7) -> Fibonacci
+	(2)  (id=10) -> Fibonacci
+Function: Basic block 5 (id=9) in CFG Fibonacci.c.013t.cfg
+Function: Coalesced label blocks: 0 (id=23) in CFG Fibonacci.c.013t.cfg
+Function: Successors:  9 (id=20) in CFG Fibonacci.c.013t.cfg
+Function: Successors:  4 (true) 5 (id=5) in CFG Fibonacci.c.013t.cfg
+Function: Predecessors:  8 (id=22) in CFG Fibonacci.c.013t.cfg
+Function: Successors:  6 (occurence=2)
+	(1)  (id=8) -> Fibonacci
+	(2)  (id=11) -> Fibonacci
+Function: Successors:  7 (occurence=2)
+	(1)  (id=2) -> Fibonacci
+	(2)  (id=14) -> Fibonacci
+Function: main (id=24) in CFG Fibonacci.c.013t.cfg
+Function: Successors:  3 (true) 8 (id=17) in CFG Fibonacci.c.013t.cfg
+Function: Predecessors:  ENTRY (id=1) in CFG Fibonacci.c.013t.cfg
+Function: Basic block 3 (id=3) in CFG Fibonacci.c.013t.cfg
+Function: Basic block 4 (id=6) in CFG Fibonacci.c.013t.cfg
+Function: Basic block 2 (id=0) in CFG Fibonacci.c.013t.cfg
+Function: Predecessors:  4 (fallthru) 5 (id=13) in CFG Fibonacci.c.013t.cfg
+
+----------------------------------

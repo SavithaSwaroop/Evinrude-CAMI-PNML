@@ -1,0 +1,17 @@
+	<cfg name="odd.c.013t.cfg" id="0">
+		<function name="main" id="0">
+			<variables>
+				<variable>n</variable>
+				<variable>D.1743</variable>
+				<variable>D.1739</variable>
+			</variables>
+			<blocks>
+				<block id="EXIT" startingLine="-1" predecessors="" successors=""></block>
+				<block id="3" startingLine="-1" predecessors="2 " successors="5 "></block>
+				<block id="2" startingLine="-1" predecessors="ENTRY " successors="4 3 "></block>
+				<block id="ENTRY" startingLine="-1" predecessors="" successors=""></block>
+				<block id="5" startingLine="-1" predecessors="4 3 " successors="EXIT "></block>
+				<block id="4" startingLine="-1" predecessors="2 " successors="5 "></block>
+			</blocks>
+		</function>
+	</cfg>

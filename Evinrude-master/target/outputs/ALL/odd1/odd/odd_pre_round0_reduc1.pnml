@@ -1,0 +1,59 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+  <net id="cId57116567008159582291" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <page id="page0">
+      <name>
+        <text>DefaultPage</text>
+      </name>
+      <transition id="cId60834655877786442866">
+        <name>
+          <text>0_0_2_to_0_0_4</text>
+        </name>
+      </transition>
+      <place id="cId60834655877786442865">
+        <name>
+          <text>State_0_0_ENTRY</text>
+        </name>
+      </place>
+      <transition id="cId60834655877786442867">
+        <name>
+          <text>0_0_2_to_0_0_3</text>
+        </name>
+      </transition>
+      <place id="cId60834655877786442862">
+        <name>
+          <text>State_Global_EXIT</text>
+        </name>
+      </place>
+      <transition id="cId60834655877786442868">
+        <name>
+          <text>0_0_ENTRY_to_0_0_2</text>
+        </name>
+      </transition>
+      <place id="cId60834655877786442864">
+        <name>
+          <text>State_0_0_EXIT</text>
+        </name>
+      </place>
+      <place id="cId60834655877786442863">
+        <name>
+          <text>State_0_0_2</text>
+        </name>
+      </place>
+      <arc id="cId608346558777864428610" source="cId60834655877786442866" target="cId60834655877786442864">
+      </arc>
+      <arc id="cId608346558777864428612" source="cId60834655877786442863" target="cId60834655877786442866">
+      </arc>
+      <arc id="cId608346558777864428614" source="cId60834655877786442863" target="cId60834655877786442867">
+      </arc>
+      <arc id="cId608346558777864428613" source="cId60834655877786442868" target="cId60834655877786442863">
+      </arc>
+      <arc id="cId608346558777864428611" source="cId60834655877786442867" target="cId60834655877786442864">
+      </arc>
+      <arc id="cId60834655877786442869" source="cId60834655877786442865" target="cId60834655877786442868">
+      </arc>
+    </page>
+    <name>
+      <text>odd_pre_round0_reduc1</text>
+    </name>
+  </net>
+</pnml>

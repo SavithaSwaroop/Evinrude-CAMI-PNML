@@ -1,0 +1,17 @@
+[     5] ;; Function main
+[     7] ;; 
+[     8] 4 basic blocks, 3 edges, last basic block 4.
+[    16] Successors:  EXIT
+[    20] CFG Statistics for main
+[    22] ---------------------------------------------------------
+[    23]                                 Number of        Memory
+[    24]                                 instances         used 
+[    25] ---------------------------------------------------------
+[    26] Basic blocks                              4        256b
+[    27] Edges                                     2         80b
+[    28] ---------------------------------------------------------
+[    29] Total memory used by CFG data                      336b
+[    30] ---------------------------------------------------------
+[    41]   stringD.1291 = "Hello World";
+[    42]   __builtin_puts (&stringD.1291);
+[    43]   D.1292 = 0;

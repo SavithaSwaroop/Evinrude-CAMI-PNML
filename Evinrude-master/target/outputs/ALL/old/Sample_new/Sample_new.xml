@@ -1,0 +1,9 @@
+	<cfg name="sample.c.013t.cfg" id="0">
+		<function name="main" id="0">
+			<variables>
+				<variable>D.1741</variable>
+			</variables>
+			<blocks>
+			</blocks>
+		</function>
+	</cfg>

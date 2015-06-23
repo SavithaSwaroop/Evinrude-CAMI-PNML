@@ -1,0 +1,17 @@
+Application's name:		math (1 files)
+
+------- Statistics : math --------
+
+Number of processed CFGs : 1
+Global coverage : 30.18867924528302% (16.0/53.0)
+File : Math.c.013t.cfg (0)
+	 # Functions : 1
+	 # Blocks : 0
+	 # Instructions : 0
+	 # Coverage : 30%
+
+------- Symbols Table : math --------
+
+Function: main (id=0) in CFG Math.c.013t.cfg
+
+----------------------------------

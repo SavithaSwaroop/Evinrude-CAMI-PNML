@@ -1,0 +1,45 @@
+<pnml>
+  <net id="cId-58599543260112972171" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <page id="page0">
+      <name>
+        <text>DefaultPage</text>
+      </name>
+      <transition id="cId-59458834919335775406">
+        <name>
+          <text>sys_0_17_3_84___builtin_puts</text>
+        </name>
+      </transition>
+      <place id="cId-59458834919335775402">
+        <name>
+          <text>State_0_17_ENTRY</text>
+        </name>
+      </place>
+      <transition id="cId-59458834919335775405">
+        <name>
+          <text>sys_0_17_2_66___builtin_puts</text>
+        </name>
+      </transition>
+      <place id="cId-59458834919335775404">
+        <name>
+          <text>State_Global_EXIT</text>
+        </name>
+      </place>
+      <place id="cId-59458834919335775403">
+        <name>
+          <text>State_0_17_2_66___builtin_puts_post</text>
+        </name>
+      </place>
+      <arc id="cId-59458834919335775409" source="cId-59458834919335775402" target="cId-59458834919335775405">
+      </arc>
+      <arc id="cId-59458834919335775407" source="cId-59458834919335775406" target="cId-59458834919335775404">
+      </arc>
+      <arc id="cId-591613878114836134710" source="cId-59458834919335775405" target="cId-59458834919335775403">
+      </arc>
+      <arc id="cId-59161387811483613478" source="cId-59458834919335775403" target="cId-59458834919335775406">
+      </arc>
+    </page>
+    <name>
+      <text>Switch_final</text>
+    </name>
+  </net>
+</pnml>

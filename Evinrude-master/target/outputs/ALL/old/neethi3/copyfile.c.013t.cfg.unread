@@ -1,0 +1,73 @@
+[     5] Pass statistics:
+[     6] ----------------
+[     8] Scope blocks:
+[    10] { Scope block #0 
+[    11]   charD.1 chD.2541; (unused)
+[    12]   charD.1 source_fileD.2542[20]; (unused)
+[    13]   charD.1 target_fileD.2543[20]; (unused)
+[    14]   struct FILED.1638 * sourceD.2544; (unused)
+[    15]   struct FILED.1638 * targetD.2545; (unused)
+[    19] Pass statistics:
+[    20] ----------------
+[    40]   [../copyfile.c : 9:10] # USE = anything 
+[    41]   # CLB = anything 
+[    42]   putsD.750 ([../copyfile.c : 9] &"Enter name of file to copy"[0]);
+[    43]   [../copyfile.c : 10:8] # USE = anything 
+[    44]   # CLB = anything 
+[    45]   getsD.1945 ([../copyfile.c : 10] &source_fileD.2542);
+[    46]   [../copyfile.c : 12:18] D.2550 = (const charD.1 * restrict) &"r"[0];
+[    47]   [../copyfile.c : 12:18] D.2551 = (const charD.1 * restrict) &source_fileD.2542[0];
+[    48]   [../copyfile.c : 12:11] # USE = anything 
+[    49]   # CLB = anything 
+[    50]   sourceD.2544 = fopenD.1805 (D.2551, D.2550);
+[    51]   [../copyfile.c : 14:6] if (sourceD.2544 == 0B)
+[    59]   [../copyfile.c : 16:13] # USE = anything 
+[    60]   # CLB = anything 
+[    61]   putsD.750 ([../copyfile.c : 16] &"Press any key to exit..."[0]);
+[    62]   [../copyfile.c : 17:11] # USE = anything 
+[    63]   # CLB = anything 
+[    64]   exitD.882 (1);
+[    69]   [../copyfile.c : 20:10] # USE = anything 
+[    70]   # CLB = anything 
+[    71]   putsD.750 ([../copyfile.c : 20] &"Enter name of target file"[0]);
+[    72]   [../copyfile.c : 21:8] # USE = anything 
+[    73]   # CLB = anything 
+[    74]   getsD.1945 ([../copyfile.c : 21] &target_fileD.2543);
+[    75]   [../copyfile.c : 23:18] D.2554 = (const charD.1 * restrict) &"w"[0];
+[    76]   [../copyfile.c : 23:18] D.2555 = (const charD.1 * restrict) &target_fileD.2543[0];
+[    77]   [../copyfile.c : 23:11] # USE = anything 
+[    78]   # CLB = anything 
+[    79]   targetD.2545 = fopenD.1805 (D.2555, D.2554);
+[    80]   [../copyfile.c : 25:6] if (targetD.2545 == 0B)
+[    88]   [../copyfile.c : 27:13] # USE = anything 
+[    89]   # CLB = anything 
+[    90]   fcloseD.1798 (sourceD.2544);
+[    91]   [../copyfile.c : 28:13] # USE = anything 
+[    92]   # CLB = anything 
+[    93]   putsD.750 ([../copyfile.c : 28] &"Press any key to exit..."[0]);
+[    94]   [../copyfile.c : 29:11] # USE = anything 
+[    95]   # CLB = anything 
+[    96]   exitD.882 (1);
+[   106]   [../copyfile.c : 33:12] D.2558 = (intD.0) chD.2541;
+[   107]   [../copyfile.c : 33:12] # USE = anything 
+[   108]   # CLB = anything 
+[   109]   fputcD.729 (D.2558, targetD.2545);
+[   112]   # BLOCK 8, starting at line 32, discriminator 1
+[   113]   # PRED: 6 (fallthru) 7 (fallthru)
+[   114]   [../copyfile.c : 32:23] # USE = anything 
+[   115]   # CLB = anything 
+[   116]   D.2559 = fgetcD.1908 (sourceD.2544);
+[   117]   [../copyfile.c : 32:16] chD.2541 = (charD.1) D.2559;
+[   118]   [../copyfile.c : 32:9] if (chD.2541 != -1)
+[   122]   # SUCC: 7 (true) 9 (false)
+[   126]   [../copyfile.c : 35:10] # USE = anything 
+[   127]   # CLB = anything 
+[   128]   putsD.750 ([../copyfile.c : 35] &"File copied successfully."[0]);
+[   129]   [../copyfile.c : 37:10] # USE = anything 
+[   130]   # CLB = anything 
+[   131]   fcloseD.1798 (sourceD.2544);
+[   132]   [../copyfile.c : 38:10] # USE = anything 
+[   133]   # CLB = anything 
+[   134]   fcloseD.1798 (targetD.2545);
+[   135]   [../copyfile.c : 40:4] D.2560 = 0;
+[   136]   [../copyfile.c : 40:4] return D.2560;

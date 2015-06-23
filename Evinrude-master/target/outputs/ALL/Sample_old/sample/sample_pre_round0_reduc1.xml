@@ -1,0 +1,110 @@
+<pnml>
+  <net id="cId-3711822366000416041" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <page id="page0">
+      <name>
+        <value>DefaultPage</value>
+      </name>
+      <transition id="cId-38109714019511366819">
+        <name>
+          <value>0_6_3_to_0_6_EXIT</value>
+        </name>
+      </transition>
+      <place id="cId-38109714019511366812">
+        <name>
+          <value>State_Global_EXIT</value>
+        </name>
+      </place>
+      <transition id="cId-45711140252232192618">
+        <name>
+          <value>0_6_ENTRY_to_0_6_2</value>
+        </name>
+      </transition>
+      <place id="cId-4571114025223219266">
+        <name>
+          <value>State_0_5_ENTRY</value>
+        </name>
+      </place>
+      <place id="cId-45711140252232192613">
+        <name>
+          <value>State_0_3_ENTRY</value>
+        </name>
+      </place>
+      <place id="cId-4571114025223219265">
+        <name>
+          <value>State_0_1_ENTRY</value>
+        </name>
+      </place>
+      <place id="cId-4571114025223219267">
+        <name>
+          <value>State_0_0_EXIT</value>
+        </name>
+      </place>
+      <place id="cId-4571114025223219268">
+        <name>
+          <value>State_0_4_ENTRY</value>
+        </name>
+      </place>
+      <place id="cId-45711140252232192617">
+        <name>
+          <value>State_0_0_ENTRY</value>
+        </name>
+      </place>
+      <place id="cId-4571114025223219262">
+        <name>
+          <value>State_0_6_EXIT</value>
+        </name>
+      </place>
+      <place id="cId-4571114025223219269">
+        <name>
+          <value>State_0_1_EXIT</value>
+        </name>
+      </place>
+      <place id="cId-45711140252232192616">
+        <name>
+          <value>State_0_6_ENTRY</value>
+        </name>
+      </place>
+      <place id="cId-45711140252232192610">
+        <name>
+          <value>State_0_4_EXIT</value>
+        </name>
+      </place>
+      <place id="cId-45711140252232192615">
+        <name>
+          <value>State_0_6_2</value>
+        </name>
+      </place>
+      <place id="cId-45711140252232192614">
+        <name>
+          <value>State_0_2_EXIT</value>
+        </name>
+      </place>
+      <place id="cId-45711140252232192611">
+        <name>
+          <value>State_0_3_EXIT</value>
+        </name>
+      </place>
+      <place id="cId-4571114025223219264">
+        <name>
+          <value>State_0_2_ENTRY</value>
+        </name>
+      </place>
+      <place id="cId-4571114025223219263">
+        <name>
+          <value>State_0_5_EXIT</value>
+        </name>
+      </place>
+      <arc id="cId-45711140252232192623" source="cId-45711140252232192615" target="cId-38109714019511366819">
+      </arc>
+      <arc id="cId-45711140252232192622" source="cId-38109714019511366819" target="cId-4571114025223219262">
+      </arc>
+      <arc id="cId-46702630611739399021" source="cId-45711140252232192618" target="cId-45711140252232192615">
+      </arc>
+      <arc id="cId-46702630611739399020" source="cId-45711140252232192616" target="cId-45711140252232192618">
+      </arc>
+    </page>
+    <name>
+      <value>sample_pre_round0_reduc1</value>
+    </name>
+  </net>
+</pnml>

@@ -1,0 +1,20 @@
+Application's name:		Sample4231 (1 files)
+
+------- Statistics : Sample4231 --------
+
+Number of processed CFGs : 1
+Global coverage : 63.04347826086956% (29.0/46.0)
+File : Sample.c.022t.cfg (0)
+	 # Functions : 4
+	 # Blocks : 3
+	 # Instructions : 0
+	 # Coverage : 63%
+
+------- Symbols Table : Sample4231 --------
+
+Function: Predecessors:  ENTRY (id=1) in CFG Sample.c.022t.cfg
+Function: Coalesced label blocks: 0 (id=2) in CFG Sample.c.022t.cfg
+Function: Basic block 2 (id=0) in CFG Sample.c.022t.cfg
+Function: main (id=3) in CFG Sample.c.022t.cfg
+
+----------------------------------

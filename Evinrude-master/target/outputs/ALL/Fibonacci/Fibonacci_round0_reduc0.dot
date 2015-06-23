@@ -1,0 +1,36 @@
+digraph model { 
+compound=true; 
+node  [style="filled", colorscheme="paired12"];  "3_146_6_104_printf_post" [shape=ellipse, style=""];
+  "3_146_7" [shape=ellipse, style=""];
+  "3_146_ENTRY" [shape=ellipse, color=4, style=filled];
+  "3_146_2_73___builtin_puts_post" [shape=ellipse, style=""];
+  "3_146_2_76_printf_post" [shape=ellipse, style=""];
+  "Global_EXIT" [shape=ellipse, color=12, style=filled];
+  "3_146_7_to_3_146_8" [shape=box, style=""];
+  "3_146_7_to_3_146_8" [label="3_146_7_to_3_146_8\n"];
+  "3_146_2_to_3_146_7" [shape=box, style=""];
+  "3_146_2_to_3_146_7" [label="3_146_2_to_3_146_7\n"];
+  "sys_3_146_6_104_printf" [shape=box, style=""];
+  "sys_3_146_6_104_printf" [color=2, style=filled];
+  "sys_3_146_6_104_printf" [label="sys_3_146_6_104_printf\n[printf]"];
+  "sys_3_146_2_76_printf" [shape=box, style=""];
+  "sys_3_146_2_76_printf" [color=2, style=filled];
+  "sys_3_146_2_76_printf" [label="sys_3_146_2_76_printf\n[printf]"];
+  "sys_3_146_2_73___builtin_puts" [shape=box, style=""];
+  "sys_3_146_2_73___builtin_puts" [color=2, style=filled];
+  "sys_3_146_2_73___builtin_puts" [label="sys_3_146_2_73___builtin_puts\n[__builtin_puts]"];
+  "3_146_6_to_3_146_7" [shape=box, style=""];
+  "3_146_6_to_3_146_7" [label="3_146_6_to_3_146_7\n"];
+  "3_146_7_to_3_146_8" -> "Global_EXIT" [label="", arrowhead="normal"];
+  "sys_3_146_2_73___builtin_puts" -> "3_146_2_73___builtin_puts_post" [label="", arrowhead="normal"];
+  "sys_3_146_6_104_printf" -> "3_146_6_104_printf_post" [label="", arrowhead="normal"];
+  "sys_3_146_2_76_printf" -> "3_146_2_76_printf_post" [label="", arrowhead="normal"];
+  "3_146_7" -> "sys_3_146_6_104_printf" [label="", arrowhead="normal"];
+  "3_146_2_76_printf_post" -> "3_146_2_to_3_146_7" [label="", arrowhead="normal"];
+  "3_146_2_73___builtin_puts_post" -> "sys_3_146_2_76_printf" [label="", arrowhead="normal"];
+  "3_146_7" -> "3_146_7_to_3_146_8" [label="", arrowhead="normal"];
+  "3_146_ENTRY" -> "sys_3_146_2_73___builtin_puts" [label="", arrowhead="normal"];
+  "3_146_6_104_printf_post" -> "3_146_6_to_3_146_7" [label="", arrowhead="normal"];
+  "3_146_6_to_3_146_7" -> "3_146_7" [label="", arrowhead="normal"];
+  "3_146_2_to_3_146_7" -> "3_146_7" [label="", arrowhead="normal"];
+}

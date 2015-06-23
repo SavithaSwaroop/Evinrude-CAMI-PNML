@@ -1,0 +1,10 @@
+digraph model { 
+compound=true; 
+node  [style="filled", colorscheme="paired12"];  "6_176_ENTRY" [shape=ellipse, color=4, style=filled];
+  "Global_EXIT" [shape=ellipse, color=12, style=filled];
+  "sys_6_176_2_42_printf" [shape=box, style=""];
+  "sys_6_176_2_42_printf" [color=2, style=filled];
+  "sys_6_176_2_42_printf" [label="sys_6_176_2_42_printf\n[printf]"];
+  "sys_6_176_2_42_printf" -> "Global_EXIT" [label="", arrowhead="normal"];
+  "6_176_ENTRY" -> "sys_6_176_2_42_printf" [label="", arrowhead="normal"];
+}
